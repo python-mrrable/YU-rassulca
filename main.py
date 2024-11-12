@@ -1,8 +1,8 @@
 import tkinter as tk
 from tkinter import filedialog, messagebox, scrolledtext
 import threading
-from browser_handler import start_process
 import logging
+from browser_handler import start_process
 
 class App:
     def __init__(self, master):
@@ -28,91 +28,75 @@ class App:
         tk.Button(master, text="Выбрать", command=lambda: self.load_file(self.proxy_file)).grid(row=2, column=2, padx=5, pady=5)
 
         tk.Label(master, text="Количество потоков:").grid(row=3, column=0, sticky="e", padx=5, pady=5)
-        tk.Entry(master, textvariable=self.threads, width=5).grid(row=3, column=1, sticky="w", padx=5, pady=5)
+        tk.Entry(master, textvariable=self.threads, width=5).grid(row=3, column=1, padx=5, pady=5)
 
-        self.start_button = tk.Button(master, text="Запустить", command=self.start)
-        self.start_button.grid(row=4, column=0, columnspan=3, pady=10)
+        self.log_text = scrolledtext.ScrolledText(master, state='disabled', width=70, height=15)
+        self.log_text.grid(row=4, column=0, columnspan=3, padx=5, pady=5)
 
-        self.stop_button = tk.Button(master, text="Остановить", command=self.stop, state=tk.DISABLED)
-        self.stop_button.grid(row=5, column=0, columnspan=3, pady=10)
+        self.start_button = tk.Button(master, text="Запустить", command=self.start_process)
+        self.start_button.grid(row=5, column=0, pady=10)
 
-        self.log = scrolledtext.ScrolledText(master, height=10, width=70)
-        self.log.grid(row=6, column=0, columnspan=3, padx=5, pady=5)
-
-        self.process_thread = None
+        self.stop_button = tk.Button(master, text="Остановить", command=self.stop_process, state='disabled')
+        self.stop_button.grid(row=5, column=2, pady=10)
         self.stop_flag = threading.Event()
 
-        self.setup_logger()
+        # Настройка логирования
+        self.setup_logging()
 
-    def setup_logger(self):
-        class TextHandler(logging.Handler):
-            def __init__(self, text_widget):
-                logging.Handler.__init__(self)
-                self.text_widget = text_widget
+    def load_file(self, variable):
+        file_path = filedialog.askopenfilename()
+        if file_path:
+            variable.set(file_path)
 
-            def emit(self, record):
-                msg = self.format(record)
-                def append():
-                    self.text_widget.configure(state='normal')
-                    self.text_widget.insert(tk.END, msg + '\n')
-                    self.text_widget.configure(state='disabled')
-                    self.text_widget.yview(tk.END)
-                self.text_widget.after(0, append)
+    def setup_logging(self):
+        self.logger = logging.getLogger()
+        self.logger.setLevel(logging.INFO)
 
-        logger = logging.getLogger()
-        logger.setLevel(logging.INFO)
+        handler = logging.StreamHandler(self)
+        handler.setLevel(logging.INFO)
+        formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
+        handler.setFormatter(formatter)
+        self.logger.addHandler(handler)
 
-        file_handler = logging.FileHandler('app.log')
-        file_handler.setLevel(logging.INFO)
-        file_formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
-        file_handler.setFormatter(file_formatter)
-        logger.addHandler(file_handler)
+    def write(self, message):
+        def append():
+            self.log_text.configure(state='normal')
+            self.log_text.insert(tk.END, message)
+            self.log_text.configure(state='disabled')
+            self.log_text.yview(tk.END)
+        
+        self.log_text.after(0, append)
 
-        text_handler = TextHandler(self.log)
-        text_handler.setLevel(logging.INFO)
-        text_formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
-        text_handler.setFormatter(text_formatter)
-        logger.addHandler(text_handler)
+    def flush(self):
+        pass
 
-    def load_file(self, var):
-        filetypes = [("Text files", "*.txt"), ("Excel files", "*.xlsx")]
-        if var == self.message_file:
-            filetypes = [("Excel files", "*.xlsx")]
-        filename = filedialog.askopenfilename(filetypes=filetypes)
-        if filename:
-            var.set(filename)
+    def start_process(self):
+        url_file = self.url_file.get()
+        message_file = self.message_file.get()
+        proxy_file = self.proxy_file.get()
+        threads = int(self.threads.get())
 
-    def start(self):
-        if not all([self.url_file.get(), self.message_file.get(), self.proxy_file.get()]):
-            messagebox.showerror("Ошибка", "Пожалуйста, выберите все необходимые файлы")
+        if not url_file or not message_file:
+            tk.messagebox.showerror("Ошибка", "Пожалуйста, выберите все необходимые файлы.")
             return
-
-        self.start_button.config(state=tk.DISABLED)
-        self.stop_button.config(state=tk.NORMAL)
+        
         self.stop_flag.clear()
+        self.start_button.config(state='disabled')
+        self.stop_button.config(state='normal')
+        threading.Thread(target=self.run_process, args=(url_file, message_file, proxy_file, threads)).start()
 
-        self.process_thread = threading.Thread(target=self.run_process)
-        self.process_thread.start()
-
-    def stop(self):
+    def stop_process(self):
         self.stop_flag.set()
-        logging.info("Останавливаем процесс...")
-        self.stop_button.config(state=tk.DISABLED)
 
-    def run_process(self):
+    def run_process(self, url_file, message_file, proxy_file, threads):
         try:
-            start_process(
-                self.url_file.get(),
-                self.message_file.get(),
-                self.proxy_file.get(),
-                int(self.threads.get()),
-                self.stop_flag
-            )
-        except Exception as e:
-            logging.error(f"Ошибка: {str(e)}", exc_info=True)
+            start_process(url_file, message_file, proxy_file, threads, self.stop_flag)
         finally:
-            self.start_button.config(state=tk.NORMAL)
-            self.stop_button.config(state=tk.DISABLED)
+            self.master.after(0, self.on_process_finish)
+
+    def on_process_finish(self):
+        self.start_button.config(state='normal')
+        self.stop_button.config(state='disabled')
 
 if __name__ == "__main__":
     root = tk.Tk()

@@ -8,3 +8,698 @@
 2024-11-13 01:46:42,266 - INFO - \u041e\u0441\u0442\u0430\u043d\u0430\u0432\u043b\u0438\u0432\u0430\u0435\u043c \u043f\u0440\u043e\u0446\u0435\u0441\u0441...
 2024-11-13 01:47:09,836 - ERROR - \u0422\u0430\u0439\u043c\u0430\u0443\u0442 \u043f\u0440\u0438 \u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0435 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u044b https://uslugi.yandex.ru/profile/AndrejVladimirovichK-2877544
 2024-11-13 01:47:12,543 - INFO - \u041f\u0440\u043e\u0446\u0435\u0441\u0441 \u0437\u0430\u0432\u0435\u0440\u0448\u0435\u043d
+2024-11-13 01:56:05,922 - INFO - \u0417\u0430\u043f\u0443\u0441\u043a \u043f\u0440\u043e\u0446\u0435\u0441\u0441\u0430 \u0441 1 \u043f\u043e\u0442\u043e\u043a\u0430\u043c\u0438
+2024-11-13 01:56:05,927 - INFO - \u0417\u0430\u0433\u0440\u0443\u0436\u0435\u043d\u043e 1 URL, 61 \u0441\u043e\u043e\u0431\u0449\u0435\u043d\u0438\u0439 \u0438 2 \u043f\u0440\u043e\u043a\u0441\u0438
+2024-11-13 01:56:10,317 - INFO - \u041f\u043e\u043f\u044b\u0442\u043a\u0430 \u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0438 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u044b: https://uslugi.yandex.ru/profile/AndrejVladimirovichK-2877544
+2024-11-13 01:56:11,004 - INFO - \u0422\u0435\u043a\u0443\u0449\u0438\u0439 URL \u043f\u043e\u0441\u043b\u0435 \u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0438: https://uslugi.yandex.ru/profile/AndrejVladimirovichK-2877544
+2024-11-13 01:56:41,709 - WARNING - \u042d\u043b\u0435\u043c\u0435\u043d\u0442 '\u042f.\u041c\u0435\u0441\u0441\u0435\u043d\u0434\u0436\u0435\u0440' \u043d\u0435 \u043d\u0430\u0439\u0434\u0435\u043d \u043d\u0430 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0435 https://uslugi.yandex.ru/profile/AndrejVladimirovichK-2877544. \u041f\u0440\u043e\u043f\u0443\u0441\u043a\u0430\u0435\u043c \u044d\u0442\u043e \u0434\u0435\u0439\u0441\u0442\u0432\u0438\u0435.
+2024-11-13 01:56:41,713 - INFO - \u041f\u043e\u043f\u044b\u0442\u043a\u0430 \u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0438 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u044b: https://uslugi.yandex.ru/profile/AndrejVladimirovichK-2877544
+2024-11-13 01:56:42,153 - INFO - \u0422\u0435\u043a\u0443\u0449\u0438\u0439 URL \u043f\u043e\u0441\u043b\u0435 \u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0438: https://uslugi.yandex.ru/profile/AndrejVladimirovichK-2877544
+2024-11-13 01:57:00,698 - INFO - \u041e\u0441\u0442\u0430\u043d\u0430\u0432\u043b\u0438\u0432\u0430\u0435\u043c \u043f\u0440\u043e\u0446\u0435\u0441\u0441...
+2024-11-13 01:57:12,851 - WARNING - \u042d\u043b\u0435\u043c\u0435\u043d\u0442 '\u042f.\u041c\u0435\u0441\u0441\u0435\u043d\u0434\u0436\u0435\u0440' \u043d\u0435 \u043d\u0430\u0439\u0434\u0435\u043d \u043d\u0430 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0435 https://uslugi.yandex.ru/profile/AndrejVladimirovichK-2877544. \u041f\u0440\u043e\u043f\u0443\u0441\u043a\u0430\u0435\u043c \u044d\u0442\u043e \u0434\u0435\u0439\u0441\u0442\u0432\u0438\u0435.
+2024-11-13 01:57:15,531 - INFO - \u041f\u0440\u043e\u0446\u0435\u0441\u0441 \u0437\u0430\u0432\u0435\u0440\u0448\u0435\u043d
+2024-11-13 02:00:34,151 - INFO - \u0417\u0430\u043f\u0443\u0441\u043a \u043f\u0440\u043e\u0446\u0435\u0441\u0441\u0430 \u0441 1 \u043f\u043e\u0442\u043e\u043a\u0430\u043c\u0438
+2024-11-13 02:00:34,157 - INFO - \u0417\u0430\u0433\u0440\u0443\u0436\u0435\u043d\u043e 1 URL, 61 \u0441\u043e\u043e\u0431\u0449\u0435\u043d\u0438\u0439 \u0438 2 \u043f\u0440\u043e\u043a\u0441\u0438
+2024-11-13 02:00:38,534 - INFO - \u041f\u043e\u043f\u044b\u0442\u043a\u0430 \u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0438 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u044b: https://uslugi.yandex.ru/profile/AndrejVladimirovichK-2877544
+2024-11-13 02:00:39,141 - INFO - \u0422\u0435\u043a\u0443\u0449\u0438\u0439 URL \u043f\u043e\u0441\u043b\u0435 \u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0438: https://uslugi.yandex.ru/profile/AndrejVladimirovichK-2877544
+2024-11-13 02:01:09,845 - WARNING - \u042d\u043b\u0435\u043c\u0435\u043d\u0442 '\u042f.\u041c\u0435\u0441\u0441\u0435\u043d\u0434\u0436\u0435\u0440' \u043d\u0435 \u043d\u0430\u0439\u0434\u0435\u043d \u043d\u0430 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0435 https://uslugi.yandex.ru/profile/AndrejVladimirovichK-2877544. \u041f\u0440\u043e\u043f\u0443\u0441\u043a\u0430\u0435\u043c \u044d\u0442\u043e \u0434\u0435\u0439\u0441\u0442\u0432\u0438\u0435.
+2024-11-13 02:01:19,905 - WARNING - \u042d\u043b\u0435\u043c\u0435\u043d\u0442 \u0442\u0435\u043a\u0441\u0442\u043e\u0432\u043e\u0433\u043e \u043f\u043e\u043b\u044f \u043d\u0435 \u043d\u0430\u0439\u0434\u0435\u043d \u043d\u0430 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0435 https://uslugi.yandex.ru/profile/AndrejVladimirovichK-2877544. \u041f\u0440\u043e\u043f\u0443\u0441\u043a\u0430\u0435\u043c \u044d\u0442\u043e \u0434\u0435\u0439\u0441\u0442\u0432\u0438\u0435.
+2024-11-13 02:01:19,910 - INFO - \u041f\u043e\u043f\u044b\u0442\u043a\u0430 \u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0438 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u044b: https://uslugi.yandex.ru/profile/AndrejVladimirovichK-2877544
+2024-11-13 02:01:20,548 - INFO - \u0422\u0435\u043a\u0443\u0449\u0438\u0439 URL \u043f\u043e\u0441\u043b\u0435 \u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0438: https://uslugi.yandex.ru/profile/AndrejVladimirovichK-2877544
+2024-11-13 02:01:25,675 - INFO - \u041e\u0441\u0442\u0430\u043d\u0430\u0432\u043b\u0438\u0432\u0430\u0435\u043c \u043f\u0440\u043e\u0446\u0435\u0441\u0441...
+2024-11-13 02:01:51,211 - WARNING - \u042d\u043b\u0435\u043c\u0435\u043d\u0442 '\u042f.\u041c\u0435\u0441\u0441\u0435\u043d\u0434\u0436\u0435\u0440' \u043d\u0435 \u043d\u0430\u0439\u0434\u0435\u043d \u043d\u0430 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0435 https://uslugi.yandex.ru/profile/AndrejVladimirovichK-2877544. \u041f\u0440\u043e\u043f\u0443\u0441\u043a\u0430\u0435\u043c \u044d\u0442\u043e \u0434\u0435\u0439\u0441\u0442\u0432\u0438\u0435.
+2024-11-13 02:02:00,885 - ERROR - \u041e\u0448\u0438\u0431\u043a\u0430 WebDriver \u043f\u0440\u0438 \u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0435 https://uslugi.yandex.ru/profile/AndrejVladimirovichK-2877544: Message: Failed to decode response from marionette
+
+2024-11-13 02:02:01,894 - ERROR - \u041e\u0448\u0438\u0431\u043a\u0430: main thread is not in main loop
+Traceback (most recent call last):
+  File "C:\YU rassulca\browser_handler.py", line 79, in process_page
+    textarea = WebDriverWait(driver, 10).until(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\YU rassulca\venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 96, in until
+    value = method(self._driver)
+            ^^^^^^^^^^^^^^^^^^^^
+  File "C:\YU rassulca\venv\Lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 84, in _predicate
+    return driver.find_element(*locator)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\YU rassulca\venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 766, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\YU rassulca\venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 380, in execute
+    self.error_handler.check_response(response)
+  File "C:\YU rassulca\venv\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: Failed to decode response from marionette
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\YU rassulca\main.py", line 104, in run_process
+    start_process(
+  File "C:\YU rassulca\browser_handler.py", line 119, in start_process
+    process_page(driver, url, message, stop_flag)
+  File "C:\YU rassulca\browser_handler.py", line 102, in process_page
+    logging.error(f"\u041e\u0448\u0438\u0431\u043a\u0430 WebDriver \u043f\u0440\u0438 \u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0435 {url}: {str(e)}")
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\logging\__init__.py", line 2183, in error
+    root.error(msg, *args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\logging\__init__.py", line 1568, in error
+    self._log(ERROR, msg, args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\logging\__init__.py", line 1684, in _log
+    self.handle(record)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\logging\__init__.py", line 1700, in handle
+    self.callHandlers(record)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\logging\__init__.py", line 1762, in callHandlers
+    hdlr.handle(record)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\logging\__init__.py", line 1028, in handle
+    self.emit(record)
+  File "C:\YU rassulca\main.py", line 60, in emit
+    self.text_widget.after(0, append)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\tkinter\__init__.py", line 873, in after
+    name = self._register(callit)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\tkinter\__init__.py", line 1604, in _register
+    self.tk.createcommand(name, f)
+RuntimeError: main thread is not in main loop
+2024-11-13 02:08:44,440 - INFO - \u0417\u0430\u043f\u0443\u0441\u043a \u043f\u0440\u043e\u0446\u0435\u0441\u0441\u0430 \u0441 1 \u043f\u043e\u0442\u043e\u043a\u0430\u043c\u0438
+2024-11-13 02:08:44,440 - INFO - \u0417\u0430\u0433\u0440\u0443\u0436\u0435\u043d\u043e 1 URL, 61 \u0441\u043e\u043e\u0431\u0449\u0435\u043d\u0438\u0439 \u0438 2 \u043f\u0440\u043e\u043a\u0441\u0438
+2024-11-13 02:08:48,797 - INFO - \u041f\u043e\u043f\u044b\u0442\u043a\u0430 \u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0438 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u044b: https://uslugi.yandex.ru/profile/AndrejVladimirovichK-2877544
+2024-11-13 02:08:49,420 - INFO - \u0422\u0435\u043a\u0443\u0449\u0438\u0439 URL \u043f\u043e\u0441\u043b\u0435 \u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0438: https://uslugi.yandex.ru/profile/AndrejVladimirovichK-2877544
+2024-11-13 02:09:20,116 - WARNING - \u042d\u043b\u0435\u043c\u0435\u043d\u0442 '\u042f.\u041c\u0435\u0441\u0441\u0435\u043d\u0434\u0436\u0435\u0440' \u043d\u0435 \u043d\u0430\u0439\u0434\u0435\u043d \u043d\u0430 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0435 https://uslugi.yandex.ru/profile/AndrejVladimirovichK-2877544. \u041f\u0440\u043e\u043f\u0443\u0441\u043a\u0430\u0435\u043c \u044d\u0442\u043e \u0434\u0435\u0439\u0441\u0442\u0432\u0438\u0435.
+2024-11-13 02:09:30,173 - WARNING - \u042d\u043b\u0435\u043c\u0435\u043d\u0442 \u0442\u0435\u043a\u0441\u0442\u043e\u0432\u043e\u0433\u043e \u043f\u043e\u043b\u044f \u043d\u0435 \u043d\u0430\u0439\u0434\u0435\u043d \u043d\u0430 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0435 https://uslugi.yandex.ru/profile/AndrejVladimirovichK-2877544. \u041f\u0440\u043e\u043f\u0443\u0441\u043a\u0430\u0435\u043c \u044d\u0442\u043e \u0434\u0435\u0439\u0441\u0442\u0432\u0438\u0435.
+2024-11-13 02:09:30,173 - INFO - \u041f\u043e\u043f\u044b\u0442\u043a\u0430 \u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0438 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u044b: https://uslugi.yandex.ru/profile/AndrejVladimirovichK-2877544
+2024-11-13 02:09:30,644 - INFO - \u0422\u0435\u043a\u0443\u0449\u0438\u0439 URL \u043f\u043e\u0441\u043b\u0435 \u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0438: https://uslugi.yandex.ru/profile/AndrejVladimirovichK-2877544
+2024-11-13 02:10:01,294 - WARNING - \u042d\u043b\u0435\u043c\u0435\u043d\u0442 '\u042f.\u041c\u0435\u0441\u0441\u0435\u043d\u0434\u0436\u0435\u0440' \u043d\u0435 \u043d\u0430\u0439\u0434\u0435\u043d \u043d\u0430 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0435 https://uslugi.yandex.ru/profile/AndrejVladimirovichK-2877544. \u041f\u0440\u043e\u043f\u0443\u0441\u043a\u0430\u0435\u043c \u044d\u0442\u043e \u0434\u0435\u0439\u0441\u0442\u0432\u0438\u0435.
+2024-11-13 02:10:02,363 - ERROR - \u041e\u0448\u0438\u0431\u043a\u0430 WebDriver \u043f\u0440\u0438 \u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0435 https://uslugi.yandex.ru/profile/AndrejVladimirovichK-2877544: Message: Failed to decode response from marionette
+
+2024-11-13 02:10:03,398 - INFO - \u041f\u043e\u043f\u044b\u0442\u043a\u0430 \u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0438 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u044b: https://uslugi.yandex.ru/profile/AndrejVladimirovichK-2877544
+2024-11-13 02:10:04,409 - ERROR - \u041e\u0448\u0438\u0431\u043a\u0430 WebDriver \u043f\u0440\u0438 \u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0435 https://uslugi.yandex.ru/profile/AndrejVladimirovichK-2877544: Message: Tried to run command without establishing a connection
+
+2024-11-13 02:10:05,419 - INFO - \u041f\u043e\u043f\u044b\u0442\u043a\u0430 \u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0438 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u044b: https://uslugi.yandex.ru/profile/AndrejVladimirovichK-2877544
+2024-11-13 02:10:06,429 - ERROR - \u041e\u0448\u0438\u0431\u043a\u0430 WebDriver \u043f\u0440\u0438 \u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0435 https://uslugi.yandex.ru/profile/AndrejVladimirovichK-2877544: Message: Tried to run command without establishing a connection
+
+2024-11-13 02:10:07,441 - INFO - \u041f\u043e\u043f\u044b\u0442\u043a\u0430 \u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0438 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u044b: https://uslugi.yandex.ru/profile/AndrejVladimirovichK-2877544
+2024-11-13 02:10:08,451 - ERROR - \u041e\u0448\u0438\u0431\u043a\u0430 WebDriver \u043f\u0440\u0438 \u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0435 https://uslugi.yandex.ru/profile/AndrejVladimirovichK-2877544: Message: Tried to run command without establishing a connection
+
+2024-11-13 02:10:09,461 - INFO - \u041f\u043e\u043f\u044b\u0442\u043a\u0430 \u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0438 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u044b: https://uslugi.yandex.ru/profile/AndrejVladimirovichK-2877544
+2024-11-13 02:10:10,472 - ERROR - \u041e\u0448\u0438\u0431\u043a\u0430 WebDriver \u043f\u0440\u0438 \u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0435 https://uslugi.yandex.ru/profile/AndrejVladimirovichK-2877544: Message: Tried to run command without establishing a connection
+
+2024-11-13 02:10:11,483 - INFO - \u041f\u043e\u043f\u044b\u0442\u043a\u0430 \u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0438 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u044b: https://uslugi.yandex.ru/profile/AndrejVladimirovichK-2877544
+2024-11-13 02:10:12,495 - ERROR - \u041e\u0448\u0438\u0431\u043a\u0430 WebDriver \u043f\u0440\u0438 \u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0435 https://uslugi.yandex.ru/profile/AndrejVladimirovichK-2877544: Message: Tried to run command without establishing a connection
+
+2024-11-13 02:10:13,523 - INFO - \u041f\u043e\u043f\u044b\u0442\u043a\u0430 \u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0438 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u044b: https://uslugi.yandex.ru/profile/AndrejVladimirovichK-2877544
+2024-11-13 02:10:14,536 - ERROR - \u041e\u0448\u0438\u0431\u043a\u0430 WebDriver \u043f\u0440\u0438 \u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0435 https://uslugi.yandex.ru/profile/AndrejVladimirovichK-2877544: Message: Tried to run command without establishing a connection
+
+2024-11-13 02:10:15,558 - INFO - \u041f\u043e\u043f\u044b\u0442\u043a\u0430 \u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0438 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u044b: https://uslugi.yandex.ru/profile/AndrejVladimirovichK-2877544
+2024-11-13 02:10:16,569 - ERROR - \u041e\u0448\u0438\u0431\u043a\u0430 WebDriver \u043f\u0440\u0438 \u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0435 https://uslugi.yandex.ru/profile/AndrejVladimirovichK-2877544: Message: Tried to run command without establishing a connection
+
+2024-11-13 02:10:17,590 - INFO - \u041f\u043e\u043f\u044b\u0442\u043a\u0430 \u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0438 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u044b: https://uslugi.yandex.ru/profile/AndrejVladimirovichK-2877544
+2024-11-13 02:10:18,602 - ERROR - \u041e\u0448\u0438\u0431\u043a\u0430 WebDriver \u043f\u0440\u0438 \u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0435 https://uslugi.yandex.ru/profile/AndrejVladimirovichK-2877544: Message: Tried to run command without establishing a connection
+
+2024-11-13 02:10:19,612 - INFO - \u041f\u043e\u043f\u044b\u0442\u043a\u0430 \u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0438 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u044b: https://uslugi.yandex.ru/profile/AndrejVladimirovichK-2877544
+2024-11-13 02:10:20,638 - ERROR - \u041e\u0448\u0438\u0431\u043a\u0430 WebDriver \u043f\u0440\u0438 \u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0435 https://uslugi.yandex.ru/profile/AndrejVladimirovichK-2877544: Message: Tried to run command without establishing a connection
+
+2024-11-13 02:10:21,649 - INFO - \u041f\u043e\u043f\u044b\u0442\u043a\u0430 \u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0438 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u044b: https://uslugi.yandex.ru/profile/AndrejVladimirovichK-2877544
+2024-11-13 02:10:22,659 - ERROR - \u041e\u0448\u0438\u0431\u043a\u0430 WebDriver \u043f\u0440\u0438 \u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0435 https://uslugi.yandex.ru/profile/AndrejVladimirovichK-2877544: Message: Tried to run command without establishing a connection
+
+2024-11-13 02:10:23,671 - INFO - \u041f\u043e\u043f\u044b\u0442\u043a\u0430 \u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0438 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u044b: https://uslugi.yandex.ru/profile/AndrejVladimirovichK-2877544
+2024-11-13 02:10:24,682 - ERROR - \u041e\u0448\u0438\u0431\u043a\u0430 WebDriver \u043f\u0440\u0438 \u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0435 https://uslugi.yandex.ru/profile/AndrejVladimirovichK-2877544: Message: Tried to run command without establishing a connection
+
+2024-11-13 02:10:25,693 - INFO - \u041f\u043e\u043f\u044b\u0442\u043a\u0430 \u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0438 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u044b: https://uslugi.yandex.ru/profile/AndrejVladimirovichK-2877544
+2024-11-13 02:10:26,704 - ERROR - \u041e\u0448\u0438\u0431\u043a\u0430 WebDriver \u043f\u0440\u0438 \u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0435 https://uslugi.yandex.ru/profile/AndrejVladimirovichK-2877544: Message: Tried to run command without establishing a connection
+
+2024-11-13 02:10:27,717 - INFO - \u041f\u043e\u043f\u044b\u0442\u043a\u0430 \u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0438 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u044b: https://uslugi.yandex.ru/profile/AndrejVladimirovichK-2877544
+2024-11-13 02:10:28,745 - ERROR - \u041e\u0448\u0438\u0431\u043a\u0430 WebDriver \u043f\u0440\u0438 \u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0435 https://uslugi.yandex.ru/profile/AndrejVladimirovichK-2877544: Message: Tried to run command without establishing a connection
+
+2024-11-13 02:10:29,755 - INFO - \u041f\u043e\u043f\u044b\u0442\u043a\u0430 \u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0438 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u044b: https://uslugi.yandex.ru/profile/AndrejVladimirovichK-2877544
+2024-11-13 02:10:30,770 - ERROR - \u041e\u0448\u0438\u0431\u043a\u0430 WebDriver \u043f\u0440\u0438 \u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0435 https://uslugi.yandex.ru/profile/AndrejVladimirovichK-2877544: Message: Tried to run command without establishing a connection
+
+2024-11-13 02:10:31,801 - INFO - \u041f\u043e\u043f\u044b\u0442\u043a\u0430 \u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0438 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u044b: https://uslugi.yandex.ru/profile/AndrejVladimirovichK-2877544
+2024-11-13 02:10:32,810 - ERROR - \u041e\u0448\u0438\u0431\u043a\u0430 WebDriver \u043f\u0440\u0438 \u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0435 https://uslugi.yandex.ru/profile/AndrejVladimirovichK-2877544: Message: Tried to run command without establishing a connection
+
+2024-11-13 02:10:33,821 - INFO - \u041f\u043e\u043f\u044b\u0442\u043a\u0430 \u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0438 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u044b: https://uslugi.yandex.ru/profile/AndrejVladimirovichK-2877544
+2024-11-13 02:10:34,831 - ERROR - \u041e\u0448\u0438\u0431\u043a\u0430 WebDriver \u043f\u0440\u0438 \u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0435 https://uslugi.yandex.ru/profile/AndrejVladimirovichK-2877544: Message: Tried to run command without establishing a connection
+
+2024-11-13 02:10:35,842 - INFO - \u041f\u043e\u043f\u044b\u0442\u043a\u0430 \u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0438 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u044b: https://uslugi.yandex.ru/profile/AndrejVladimirovichK-2877544
+2024-11-13 02:10:36,853 - ERROR - \u041e\u0448\u0438\u0431\u043a\u0430 WebDriver \u043f\u0440\u0438 \u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0435 https://uslugi.yandex.ru/profile/AndrejVladimirovichK-2877544: Message: Tried to run command without establishing a connection
+
+2024-11-13 02:10:37,862 - INFO - \u041f\u043e\u043f\u044b\u0442\u043a\u0430 \u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0438 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u044b: https://uslugi.yandex.ru/profile/AndrejVladimirovichK-2877544
+2024-11-13 02:10:38,875 - ERROR - \u041e\u0448\u0438\u0431\u043a\u0430 WebDriver \u043f\u0440\u0438 \u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0435 https://uslugi.yandex.ru/profile/AndrejVladimirovichK-2877544: Message: Tried to run command without establishing a connection
+
+2024-11-13 02:10:39,886 - INFO - \u041f\u043e\u043f\u044b\u0442\u043a\u0430 \u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0438 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u044b: https://uslugi.yandex.ru/profile/AndrejVladimirovichK-2877544
+2024-11-13 02:10:40,897 - ERROR - \u041e\u0448\u0438\u0431\u043a\u0430 WebDriver \u043f\u0440\u0438 \u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0435 https://uslugi.yandex.ru/profile/AndrejVladimirovichK-2877544: Message: Tried to run command without establishing a connection
+
+2024-11-13 02:10:41,911 - INFO - \u041f\u043e\u043f\u044b\u0442\u043a\u0430 \u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0438 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u044b: https://uslugi.yandex.ru/profile/AndrejVladimirovichK-2877544
+2024-11-13 02:10:42,921 - ERROR - \u041e\u0448\u0438\u0431\u043a\u0430 WebDriver \u043f\u0440\u0438 \u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0435 https://uslugi.yandex.ru/profile/AndrejVladimirovichK-2877544: Message: Tried to run command without establishing a connection
+
+2024-11-13 02:10:43,933 - INFO - \u041f\u043e\u043f\u044b\u0442\u043a\u0430 \u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0438 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u044b: https://uslugi.yandex.ru/profile/AndrejVladimirovichK-2877544
+2024-11-13 02:10:44,944 - ERROR - \u041e\u0448\u0438\u0431\u043a\u0430 WebDriver \u043f\u0440\u0438 \u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0435 https://uslugi.yandex.ru/profile/AndrejVladimirovichK-2877544: Message: Tried to run command without establishing a connection
+
+2024-11-13 02:10:45,955 - INFO - \u041f\u043e\u043f\u044b\u0442\u043a\u0430 \u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0438 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u044b: https://uslugi.yandex.ru/profile/AndrejVladimirovichK-2877544
+2024-11-13 02:10:46,967 - ERROR - \u041e\u0448\u0438\u0431\u043a\u0430 WebDriver \u043f\u0440\u0438 \u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0435 https://uslugi.yandex.ru/profile/AndrejVladimirovichK-2877544: Message: Tried to run command without establishing a connection
+
+2024-11-13 02:10:47,977 - INFO - \u041f\u043e\u043f\u044b\u0442\u043a\u0430 \u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0438 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u044b: https://uslugi.yandex.ru/profile/AndrejVladimirovichK-2877544
+2024-11-13 02:10:48,989 - ERROR - \u041e\u0448\u0438\u0431\u043a\u0430 WebDriver \u043f\u0440\u0438 \u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0435 https://uslugi.yandex.ru/profile/AndrejVladimirovichK-2877544: Message: Tried to run command without establishing a connection
+
+2024-11-13 02:10:50,000 - INFO - \u041f\u043e\u043f\u044b\u0442\u043a\u0430 \u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0438 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u044b: https://uslugi.yandex.ru/profile/AndrejVladimirovichK-2877544
+2024-11-13 02:10:51,011 - ERROR - \u041e\u0448\u0438\u0431\u043a\u0430 WebDriver \u043f\u0440\u0438 \u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0435 https://uslugi.yandex.ru/profile/AndrejVladimirovichK-2877544: Message: Tried to run command without establishing a connection
+
+2024-11-13 02:10:52,022 - INFO - \u041f\u043e\u043f\u044b\u0442\u043a\u0430 \u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0438 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u044b: https://uslugi.yandex.ru/profile/AndrejVladimirovichK-2877544
+2024-11-13 02:10:53,031 - ERROR - \u041e\u0448\u0438\u0431\u043a\u0430 WebDriver \u043f\u0440\u0438 \u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0435 https://uslugi.yandex.ru/profile/AndrejVladimirovichK-2877544: Message: Tried to run command without establishing a connection
+
+2024-11-13 02:10:54,043 - INFO - \u041f\u043e\u043f\u044b\u0442\u043a\u0430 \u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0438 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u044b: https://uslugi.yandex.ru/profile/AndrejVladimirovichK-2877544
+2024-11-13 02:10:55,053 - ERROR - \u041e\u0448\u0438\u0431\u043a\u0430 WebDriver \u043f\u0440\u0438 \u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0435 https://uslugi.yandex.ru/profile/AndrejVladimirovichK-2877544: Message: Tried to run command without establishing a connection
+
+2024-11-13 02:10:56,066 - INFO - \u041f\u043e\u043f\u044b\u0442\u043a\u0430 \u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0438 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u044b: https://uslugi.yandex.ru/profile/AndrejVladimirovichK-2877544
+2024-11-13 02:10:57,076 - ERROR - \u041e\u0448\u0438\u0431\u043a\u0430 WebDriver \u043f\u0440\u0438 \u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0435 https://uslugi.yandex.ru/profile/AndrejVladimirovichK-2877544: Message: Tried to run command without establishing a connection
+
+2024-11-13 02:10:58,089 - INFO - \u041f\u043e\u043f\u044b\u0442\u043a\u0430 \u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0438 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u044b: https://uslugi.yandex.ru/profile/AndrejVladimirovichK-2877544
+2024-11-13 02:10:59,098 - ERROR - \u041e\u0448\u0438\u0431\u043a\u0430 WebDriver \u043f\u0440\u0438 \u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0435 https://uslugi.yandex.ru/profile/AndrejVladimirovichK-2877544: Message: Tried to run command without establishing a connection
+
+2024-11-13 02:11:00,110 - INFO - \u041f\u043e\u043f\u044b\u0442\u043a\u0430 \u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0438 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u044b: https://uslugi.yandex.ru/profile/AndrejVladimirovichK-2877544
+2024-11-13 02:11:01,123 - ERROR - \u041e\u0448\u0438\u0431\u043a\u0430 WebDriver \u043f\u0440\u0438 \u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0435 https://uslugi.yandex.ru/profile/AndrejVladimirovichK-2877544: Message: Tried to run command without establishing a connection
+
+2024-11-13 02:11:02,136 - INFO - \u041f\u043e\u043f\u044b\u0442\u043a\u0430 \u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0438 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u044b: https://uslugi.yandex.ru/profile/AndrejVladimirovichK-2877544
+2024-11-13 02:11:03,147 - ERROR - \u041e\u0448\u0438\u0431\u043a\u0430 WebDriver \u043f\u0440\u0438 \u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0435 https://uslugi.yandex.ru/profile/AndrejVladimirovichK-2877544: Message: Tried to run command without establishing a connection
+
+2024-11-13 02:11:04,161 - INFO - \u041f\u043e\u043f\u044b\u0442\u043a\u0430 \u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0438 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u044b: https://uslugi.yandex.ru/profile/AndrejVladimirovichK-2877544
+2024-11-13 02:11:05,173 - ERROR - \u041e\u0448\u0438\u0431\u043a\u0430 WebDriver \u043f\u0440\u0438 \u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0435 https://uslugi.yandex.ru/profile/AndrejVladimirovichK-2877544: Message: Tried to run command without establishing a connection
+
+2024-11-13 02:11:06,186 - INFO - \u041f\u043e\u043f\u044b\u0442\u043a\u0430 \u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0438 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u044b: https://uslugi.yandex.ru/profile/AndrejVladimirovichK-2877544
+2024-11-13 02:11:07,195 - ERROR - \u041e\u0448\u0438\u0431\u043a\u0430 WebDriver \u043f\u0440\u0438 \u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0435 https://uslugi.yandex.ru/profile/AndrejVladimirovichK-2877544: Message: Tried to run command without establishing a connection
+
+2024-11-13 02:11:08,208 - INFO - \u041f\u043e\u043f\u044b\u0442\u043a\u0430 \u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0438 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u044b: https://uslugi.yandex.ru/profile/AndrejVladimirovichK-2877544
+2024-11-13 02:11:09,219 - ERROR - \u041e\u0448\u0438\u0431\u043a\u0430 WebDriver \u043f\u0440\u0438 \u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0435 https://uslugi.yandex.ru/profile/AndrejVladimirovichK-2877544: Message: Tried to run command without establishing a connection
+
+2024-11-13 02:11:10,230 - INFO - \u041f\u043e\u043f\u044b\u0442\u043a\u0430 \u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0438 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u044b: https://uslugi.yandex.ru/profile/AndrejVladimirovichK-2877544
+2024-11-13 02:11:11,241 - ERROR - \u041e\u0448\u0438\u0431\u043a\u0430 WebDriver \u043f\u0440\u0438 \u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0435 https://uslugi.yandex.ru/profile/AndrejVladimirovichK-2877544: Message: Tried to run command without establishing a connection
+
+2024-11-13 02:11:12,261 - INFO - \u041f\u043e\u043f\u044b\u0442\u043a\u0430 \u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0438 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u044b: https://uslugi.yandex.ru/profile/AndrejVladimirovichK-2877544
+2024-11-13 02:11:13,272 - ERROR - \u041e\u0448\u0438\u0431\u043a\u0430 WebDriver \u043f\u0440\u0438 \u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0435 https://uslugi.yandex.ru/profile/AndrejVladimirovichK-2877544: Message: Tried to run command without establishing a connection
+
+2024-11-13 02:11:14,285 - INFO - \u041f\u043e\u043f\u044b\u0442\u043a\u0430 \u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0438 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u044b: https://uslugi.yandex.ru/profile/AndrejVladimirovichK-2877544
+2024-11-13 02:11:15,296 - ERROR - \u041e\u0448\u0438\u0431\u043a\u0430 WebDriver \u043f\u0440\u0438 \u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0435 https://uslugi.yandex.ru/profile/AndrejVladimirovichK-2877544: Message: Tried to run command without establishing a connection
+
+2024-11-13 02:11:16,309 - INFO - \u041f\u043e\u043f\u044b\u0442\u043a\u0430 \u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0438 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u044b: https://uslugi.yandex.ru/profile/AndrejVladimirovichK-2877544
+2024-11-13 02:11:17,329 - ERROR - \u041e\u0448\u0438\u0431\u043a\u0430 WebDriver \u043f\u0440\u0438 \u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0435 https://uslugi.yandex.ru/profile/AndrejVladimirovichK-2877544: Message: Tried to run command without establishing a connection
+
+2024-11-13 02:11:18,341 - INFO - \u041f\u043e\u043f\u044b\u0442\u043a\u0430 \u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0438 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u044b: https://uslugi.yandex.ru/profile/AndrejVladimirovichK-2877544
+2024-11-13 02:11:19,350 - ERROR - \u041e\u0448\u0438\u0431\u043a\u0430 WebDriver \u043f\u0440\u0438 \u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0435 https://uslugi.yandex.ru/profile/AndrejVladimirovichK-2877544: Message: Tried to run command without establishing a connection
+
+2024-11-13 02:11:20,362 - INFO - \u041f\u043e\u043f\u044b\u0442\u043a\u0430 \u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0438 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u044b: https://uslugi.yandex.ru/profile/AndrejVladimirovichK-2877544
+2024-11-13 02:11:21,373 - ERROR - \u041e\u0448\u0438\u0431\u043a\u0430 WebDriver \u043f\u0440\u0438 \u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0435 https://uslugi.yandex.ru/profile/AndrejVladimirovichK-2877544: Message: Tried to run command without establishing a connection
+
+2024-11-13 02:11:22,385 - INFO - \u041f\u043e\u043f\u044b\u0442\u043a\u0430 \u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0438 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u044b: https://uslugi.yandex.ru/profile/AndrejVladimirovichK-2877544
+2024-11-13 02:11:23,407 - ERROR - \u041e\u0448\u0438\u0431\u043a\u0430 WebDriver \u043f\u0440\u0438 \u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0435 https://uslugi.yandex.ru/profile/AndrejVladimirovichK-2877544: Message: Tried to run command without establishing a connection
+
+2024-11-13 02:11:24,420 - INFO - \u041f\u043e\u043f\u044b\u0442\u043a\u0430 \u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0438 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u044b: https://uslugi.yandex.ru/profile/AndrejVladimirovichK-2877544
+2024-11-13 02:11:25,432 - ERROR - \u041e\u0448\u0438\u0431\u043a\u0430 WebDriver \u043f\u0440\u0438 \u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0435 https://uslugi.yandex.ru/profile/AndrejVladimirovichK-2877544: Message: Tried to run command without establishing a connection
+
+2024-11-13 02:11:26,445 - INFO - \u041f\u043e\u043f\u044b\u0442\u043a\u0430 \u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0438 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u044b: https://uslugi.yandex.ru/profile/AndrejVladimirovichK-2877544
+2024-11-13 02:11:27,455 - ERROR - \u041e\u0448\u0438\u0431\u043a\u0430 WebDriver \u043f\u0440\u0438 \u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0435 https://uslugi.yandex.ru/profile/AndrejVladimirovichK-2877544: Message: Tried to run command without establishing a connection
+
+2024-11-13 02:11:28,466 - INFO - \u041f\u043e\u043f\u044b\u0442\u043a\u0430 \u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0438 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u044b: https://uslugi.yandex.ru/profile/AndrejVladimirovichK-2877544
+2024-11-13 02:11:29,475 - ERROR - \u041e\u0448\u0438\u0431\u043a\u0430 WebDriver \u043f\u0440\u0438 \u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0435 https://uslugi.yandex.ru/profile/AndrejVladimirovichK-2877544: Message: Tried to run command without establishing a connection
+
+2024-11-13 02:11:30,486 - INFO - \u041f\u043e\u043f\u044b\u0442\u043a\u0430 \u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0438 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u044b: https://uslugi.yandex.ru/profile/AndrejVladimirovichK-2877544
+2024-11-13 02:11:31,499 - ERROR - \u041e\u0448\u0438\u0431\u043a\u0430 WebDriver \u043f\u0440\u0438 \u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0435 https://uslugi.yandex.ru/profile/AndrejVladimirovichK-2877544: Message: Tried to run command without establishing a connection
+
+2024-11-13 02:11:32,512 - INFO - \u041f\u043e\u043f\u044b\u0442\u043a\u0430 \u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0438 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u044b: https://uslugi.yandex.ru/profile/AndrejVladimirovichK-2877544
+2024-11-13 02:11:33,542 - ERROR - \u041e\u0448\u0438\u0431\u043a\u0430 WebDriver \u043f\u0440\u0438 \u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0435 https://uslugi.yandex.ru/profile/AndrejVladimirovichK-2877544: Message: Tried to run command without establishing a connection
+
+2024-11-13 02:11:34,553 - INFO - \u041f\u043e\u043f\u044b\u0442\u043a\u0430 \u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0438 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u044b: https://uslugi.yandex.ru/profile/AndrejVladimirovichK-2877544
+2024-11-13 02:11:35,565 - ERROR - \u041e\u0448\u0438\u0431\u043a\u0430 WebDriver \u043f\u0440\u0438 \u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0435 https://uslugi.yandex.ru/profile/AndrejVladimirovichK-2877544: Message: Tried to run command without establishing a connection
+
+2024-11-13 02:11:36,577 - INFO - \u041f\u043e\u043f\u044b\u0442\u043a\u0430 \u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0438 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u044b: https://uslugi.yandex.ru/profile/AndrejVladimirovichK-2877544
+2024-11-13 02:11:37,585 - ERROR - \u041e\u0448\u0438\u0431\u043a\u0430 WebDriver \u043f\u0440\u0438 \u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0435 https://uslugi.yandex.ru/profile/AndrejVladimirovichK-2877544: Message: Tried to run command without establishing a connection
+
+2024-11-13 02:11:38,596 - INFO - \u041f\u043e\u043f\u044b\u0442\u043a\u0430 \u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0438 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u044b: https://uslugi.yandex.ru/profile/AndrejVladimirovichK-2877544
+2024-11-13 02:11:39,607 - ERROR - \u041e\u0448\u0438\u0431\u043a\u0430 WebDriver \u043f\u0440\u0438 \u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0435 https://uslugi.yandex.ru/profile/AndrejVladimirovichK-2877544: Message: Tried to run command without establishing a connection
+
+2024-11-13 02:11:40,617 - INFO - \u041f\u043e\u043f\u044b\u0442\u043a\u0430 \u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0438 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u044b: https://uslugi.yandex.ru/profile/AndrejVladimirovichK-2877544
+2024-11-13 02:11:41,626 - ERROR - \u041e\u0448\u0438\u0431\u043a\u0430 WebDriver \u043f\u0440\u0438 \u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0435 https://uslugi.yandex.ru/profile/AndrejVladimirovichK-2877544: Message: Tried to run command without establishing a connection
+
+2024-11-13 02:11:42,638 - INFO - \u041f\u043e\u043f\u044b\u0442\u043a\u0430 \u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0438 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u044b: https://uslugi.yandex.ru/profile/AndrejVladimirovichK-2877544
+2024-11-13 02:11:43,650 - ERROR - \u041e\u0448\u0438\u0431\u043a\u0430 WebDriver \u043f\u0440\u0438 \u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0435 https://uslugi.yandex.ru/profile/AndrejVladimirovichK-2877544: Message: Tried to run command without establishing a connection
+
+2024-11-13 02:11:44,663 - INFO - \u041f\u043e\u043f\u044b\u0442\u043a\u0430 \u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0438 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u044b: https://uslugi.yandex.ru/profile/AndrejVladimirovichK-2877544
+2024-11-13 02:11:45,673 - ERROR - \u041e\u0448\u0438\u0431\u043a\u0430 WebDriver \u043f\u0440\u0438 \u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0435 https://uslugi.yandex.ru/profile/AndrejVladimirovichK-2877544: Message: Tried to run command without establishing a connection
+
+2024-11-13 02:11:46,685 - INFO - \u041f\u043e\u043f\u044b\u0442\u043a\u0430 \u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0438 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u044b: https://uslugi.yandex.ru/profile/AndrejVladimirovichK-2877544
+2024-11-13 02:11:47,695 - ERROR - \u041e\u0448\u0438\u0431\u043a\u0430 WebDriver \u043f\u0440\u0438 \u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0435 https://uslugi.yandex.ru/profile/AndrejVladimirovichK-2877544: Message: Tried to run command without establishing a connection
+
+2024-11-13 02:11:48,706 - INFO - \u041f\u043e\u043f\u044b\u0442\u043a\u0430 \u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0438 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u044b: https://uslugi.yandex.ru/profile/AndrejVladimirovichK-2877544
+2024-11-13 02:11:49,716 - ERROR - \u041e\u0448\u0438\u0431\u043a\u0430 WebDriver \u043f\u0440\u0438 \u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0435 https://uslugi.yandex.ru/profile/AndrejVladimirovichK-2877544: Message: Tried to run command without establishing a connection
+
+2024-11-13 02:11:50,727 - INFO - \u041f\u043e\u043f\u044b\u0442\u043a\u0430 \u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0438 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u044b: https://uslugi.yandex.ru/profile/AndrejVladimirovichK-2877544
+2024-11-13 02:11:51,746 - ERROR - \u041e\u0448\u0438\u0431\u043a\u0430 WebDriver \u043f\u0440\u0438 \u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0435 https://uslugi.yandex.ru/profile/AndrejVladimirovichK-2877544: Message: Tried to run command without establishing a connection
+
+2024-11-13 02:11:52,756 - INFO - \u041f\u043e\u043f\u044b\u0442\u043a\u0430 \u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0438 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u044b: https://uslugi.yandex.ru/profile/AndrejVladimirovichK-2877544
+2024-11-13 02:11:53,767 - ERROR - \u041e\u0448\u0438\u0431\u043a\u0430 WebDriver \u043f\u0440\u0438 \u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0435 https://uslugi.yandex.ru/profile/AndrejVladimirovichK-2877544: Message: Tried to run command without establishing a connection
+
+2024-11-13 02:11:54,778 - INFO - \u041f\u043e\u043f\u044b\u0442\u043a\u0430 \u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0438 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u044b: https://uslugi.yandex.ru/profile/AndrejVladimirovichK-2877544
+2024-11-13 02:11:55,787 - ERROR - \u041e\u0448\u0438\u0431\u043a\u0430 WebDriver \u043f\u0440\u0438 \u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0435 https://uslugi.yandex.ru/profile/AndrejVladimirovichK-2877544: Message: Tried to run command without establishing a connection
+
+2024-11-13 02:11:56,798 - INFO - \u041f\u043e\u043f\u044b\u0442\u043a\u0430 \u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0438 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u044b: https://uslugi.yandex.ru/profile/AndrejVladimirovichK-2877544
+2024-11-13 02:11:57,808 - ERROR - \u041e\u0448\u0438\u0431\u043a\u0430 WebDriver \u043f\u0440\u0438 \u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0435 https://uslugi.yandex.ru/profile/AndrejVladimirovichK-2877544: Message: Tried to run command without establishing a connection
+
+2024-11-13 02:11:58,818 - INFO - \u041f\u043e\u043f\u044b\u0442\u043a\u0430 \u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0438 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u044b: https://uslugi.yandex.ru/profile/AndrejVladimirovichK-2877544
+2024-11-13 02:11:59,831 - ERROR - \u041e\u0448\u0438\u0431\u043a\u0430 WebDriver \u043f\u0440\u0438 \u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0435 https://uslugi.yandex.ru/profile/AndrejVladimirovichK-2877544: Message: Tried to run command without establishing a connection
+
+2024-11-13 02:12:00,844 - INFO - \u041f\u043e\u043f\u044b\u0442\u043a\u0430 \u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0438 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u044b: https://uslugi.yandex.ru/profile/AndrejVladimirovichK-2877544
+2024-11-13 02:12:01,854 - ERROR - \u041e\u0448\u0438\u0431\u043a\u0430 WebDriver \u043f\u0440\u0438 \u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0435 https://uslugi.yandex.ru/profile/AndrejVladimirovichK-2877544: Message: Tried to run command without establishing a connection
+
+2024-11-13 02:12:02,863 - INFO - \u041f\u043e\u043f\u044b\u0442\u043a\u0430 \u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0438 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u044b: https://uslugi.yandex.ru/profile/AndrejVladimirovichK-2877544
+2024-11-13 02:12:03,874 - ERROR - \u041e\u0448\u0438\u0431\u043a\u0430 WebDriver \u043f\u0440\u0438 \u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0435 https://uslugi.yandex.ru/profile/AndrejVladimirovichK-2877544: Message: Tried to run command without establishing a connection
+
+2024-11-13 02:12:04,883 - INFO - \u041f\u043e\u043f\u044b\u0442\u043a\u0430 \u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0438 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u044b: https://uslugi.yandex.ru/profile/AndrejVladimirovichK-2877544
+2024-11-13 02:12:05,893 - ERROR - \u041e\u0448\u0438\u0431\u043a\u0430 WebDriver \u043f\u0440\u0438 \u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0435 https://uslugi.yandex.ru/profile/AndrejVladimirovichK-2877544: Message: Tried to run command without establishing a connection
+
+2024-11-13 02:12:06,904 - INFO - \u041f\u043e\u043f\u044b\u0442\u043a\u0430 \u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0438 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u044b: https://uslugi.yandex.ru/profile/AndrejVladimirovichK-2877544
+2024-11-13 02:12:11,944 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000219C3EFAE70>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/9aab87dc-b9c8-4932-8645-d1c57b50e838/timeouts
+2024-11-13 02:12:16,970 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000219B2723E30>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/9aab87dc-b9c8-4932-8645-d1c57b50e838/timeouts
+2024-11-13 02:12:22,005 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000219C3FA3D70>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/9aab87dc-b9c8-4932-8645-d1c57b50e838/timeouts
+2024-11-13 02:12:27,033 - ERROR - \u041d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u043d\u0430\u044f \u043e\u0448\u0438\u0431\u043a\u0430 \u043f\u0440\u0438 \u043e\u0431\u0440\u0430\u0431\u043e\u0442\u043a\u0435 https://uslugi.yandex.ru/profile/AndrejVladimirovichK-2877544: HTTPConnectionPool(host='localhost', port=50887): Max retries exceeded with url: /session/9aab87dc-b9c8-4932-8645-d1c57b50e838/timeouts (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000219B2723FB0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+Traceback (most recent call last):
+  File "C:\YU rassulca\venv\Lib\site-packages\urllib3\connection.py", line 199, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\YU rassulca\venv\Lib\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    raise err
+  File "C:\YU rassulca\venv\Lib\site-packages\urllib3\util\connection.py", line 73, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] No connection could be made because the target machine actively refused it
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\YU rassulca\venv\Lib\site-packages\urllib3\connectionpool.py", line 789, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\YU rassulca\venv\Lib\site-packages\urllib3\connectionpool.py", line 495, in _make_request
+    conn.request(
+  File "C:\YU rassulca\venv\Lib\site-packages\urllib3\connection.py", line 441, in request
+    self.endheaders()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 1331, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 1091, in _send_output
+    self.send(msg)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 1035, in send
+    self.connect()
+  File "C:\YU rassulca\venv\Lib\site-packages\urllib3\connection.py", line 279, in connect
+    self.sock = self._new_conn()
+                ^^^^^^^^^^^^^^^^
+  File "C:\YU rassulca\venv\Lib\site-packages\urllib3\connection.py", line 214, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x00000219B2723FB0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\YU rassulca\browser_handler.py", line 56, in process_page
+    driver.set_page_load_timeout(30)
+  File "C:\YU rassulca\venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 715, in set_page_load_timeout
+    self.execute(Command.SET_TIMEOUTS, {"pageLoad": int(float(time_to_wait) * 1000)})
+  File "C:\YU rassulca\venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 378, in execute
+    response = self.command_executor.execute(driver_command, params)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\YU rassulca\venv\Lib\site-packages\selenium\webdriver\remote\remote_connection.py", line 391, in execute
+    return self._request(command_info[0], url, body=data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\YU rassulca\venv\Lib\site-packages\selenium\webdriver\remote\remote_connection.py", line 415, in _request
+    response = self._conn.request(method, url, body=body, headers=headers, timeout=self._client_config.timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\YU rassulca\venv\Lib\site-packages\urllib3\_request_methods.py", line 143, in request
+    return self.request_encode_body(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\YU rassulca\venv\Lib\site-packages\urllib3\_request_methods.py", line 278, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\YU rassulca\venv\Lib\site-packages\urllib3\poolmanager.py", line 443, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\YU rassulca\venv\Lib\site-packages\urllib3\connectionpool.py", line 873, in urlopen
+    return self.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\YU rassulca\venv\Lib\site-packages\urllib3\connectionpool.py", line 873, in urlopen
+    return self.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\YU rassulca\venv\Lib\site-packages\urllib3\connectionpool.py", line 873, in urlopen
+    return self.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\YU rassulca\venv\Lib\site-packages\urllib3\connectionpool.py", line 843, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "C:\YU rassulca\venv\Lib\site-packages\urllib3\util\retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='localhost', port=50887): Max retries exceeded with url: /session/9aab87dc-b9c8-4932-8645-d1c57b50e838/timeouts (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000219B2723FB0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2024-11-13 02:12:28,063 - INFO - \u041f\u043e\u043f\u044b\u0442\u043a\u0430 \u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0438 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u044b: https://uslugi.yandex.ru/profile/AndrejVladimirovichK-2877544
+2024-11-13 02:12:33,100 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000219C4141CD0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/9aab87dc-b9c8-4932-8645-d1c57b50e838/timeouts
+2024-11-13 02:12:38,136 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000219B27543B0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/9aab87dc-b9c8-4932-8645-d1c57b50e838/timeouts
+2024-11-13 02:12:43,161 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000219B27546B0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/9aab87dc-b9c8-4932-8645-d1c57b50e838/timeouts
+2024-11-13 02:12:48,189 - ERROR - \u041d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u043d\u0430\u044f \u043e\u0448\u0438\u0431\u043a\u0430 \u043f\u0440\u0438 \u043e\u0431\u0440\u0430\u0431\u043e\u0442\u043a\u0435 https://uslugi.yandex.ru/profile/AndrejVladimirovichK-2877544: HTTPConnectionPool(host='localhost', port=50887): Max retries exceeded with url: /session/9aab87dc-b9c8-4932-8645-d1c57b50e838/timeouts (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000219C3FA3D70>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+Traceback (most recent call last):
+  File "C:\YU rassulca\venv\Lib\site-packages\urllib3\connection.py", line 199, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\YU rassulca\venv\Lib\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    raise err
+  File "C:\YU rassulca\venv\Lib\site-packages\urllib3\util\connection.py", line 73, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] No connection could be made because the target machine actively refused it
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\YU rassulca\venv\Lib\site-packages\urllib3\connectionpool.py", line 789, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\YU rassulca\venv\Lib\site-packages\urllib3\connectionpool.py", line 495, in _make_request
+    conn.request(
+  File "C:\YU rassulca\venv\Lib\site-packages\urllib3\connection.py", line 441, in request
+    self.endheaders()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 1331, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 1091, in _send_output
+    self.send(msg)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 1035, in send
+    self.connect()
+  File "C:\YU rassulca\venv\Lib\site-packages\urllib3\connection.py", line 279, in connect
+    self.sock = self._new_conn()
+                ^^^^^^^^^^^^^^^^
+  File "C:\YU rassulca\venv\Lib\site-packages\urllib3\connection.py", line 214, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x00000219C3FA3D70>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\YU rassulca\browser_handler.py", line 56, in process_page
+    driver.set_page_load_timeout(30)
+  File "C:\YU rassulca\venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 715, in set_page_load_timeout
+    self.execute(Command.SET_TIMEOUTS, {"pageLoad": int(float(time_to_wait) * 1000)})
+  File "C:\YU rassulca\venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 378, in execute
+    response = self.command_executor.execute(driver_command, params)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\YU rassulca\venv\Lib\site-packages\selenium\webdriver\remote\remote_connection.py", line 391, in execute
+    return self._request(command_info[0], url, body=data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\YU rassulca\venv\Lib\site-packages\selenium\webdriver\remote\remote_connection.py", line 415, in _request
+    response = self._conn.request(method, url, body=body, headers=headers, timeout=self._client_config.timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\YU rassulca\venv\Lib\site-packages\urllib3\_request_methods.py", line 143, in request
+    return self.request_encode_body(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\YU rassulca\venv\Lib\site-packages\urllib3\_request_methods.py", line 278, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\YU rassulca\venv\Lib\site-packages\urllib3\poolmanager.py", line 443, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\YU rassulca\venv\Lib\site-packages\urllib3\connectionpool.py", line 873, in urlopen
+    return self.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\YU rassulca\venv\Lib\site-packages\urllib3\connectionpool.py", line 873, in urlopen
+    return self.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\YU rassulca\venv\Lib\site-packages\urllib3\connectionpool.py", line 873, in urlopen
+    return self.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\YU rassulca\venv\Lib\site-packages\urllib3\connectionpool.py", line 843, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "C:\YU rassulca\venv\Lib\site-packages\urllib3\util\retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='localhost', port=50887): Max retries exceeded with url: /session/9aab87dc-b9c8-4932-8645-d1c57b50e838/timeouts (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000219C3FA3D70>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2024-11-13 02:12:49,206 - INFO - \u041f\u043e\u043f\u044b\u0442\u043a\u0430 \u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0438 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u044b: https://uslugi.yandex.ru/profile/AndrejVladimirovichK-2877544
+2024-11-13 02:12:54,240 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000219B27217C0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/9aab87dc-b9c8-4932-8645-d1c57b50e838/timeouts
+2024-11-13 02:12:59,276 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000219B2722ED0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/9aab87dc-b9c8-4932-8645-d1c57b50e838/timeouts
+2024-11-13 02:13:04,310 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000219B2722C60>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/9aab87dc-b9c8-4932-8645-d1c57b50e838/timeouts
+2024-11-13 02:13:09,343 - ERROR - \u041d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u043d\u0430\u044f \u043e\u0448\u0438\u0431\u043a\u0430 \u043f\u0440\u0438 \u043e\u0431\u0440\u0430\u0431\u043e\u0442\u043a\u0435 https://uslugi.yandex.ru/profile/AndrejVladimirovichK-2877544: HTTPConnectionPool(host='localhost', port=50887): Max retries exceeded with url: /session/9aab87dc-b9c8-4932-8645-d1c57b50e838/timeouts (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000219B27548F0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+Traceback (most recent call last):
+  File "C:\YU rassulca\venv\Lib\site-packages\urllib3\connection.py", line 199, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\YU rassulca\venv\Lib\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    raise err
+  File "C:\YU rassulca\venv\Lib\site-packages\urllib3\util\connection.py", line 73, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] No connection could be made because the target machine actively refused it
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\YU rassulca\venv\Lib\site-packages\urllib3\connectionpool.py", line 789, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\YU rassulca\venv\Lib\site-packages\urllib3\connectionpool.py", line 495, in _make_request
+    conn.request(
+  File "C:\YU rassulca\venv\Lib\site-packages\urllib3\connection.py", line 441, in request
+    self.endheaders()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 1331, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 1091, in _send_output
+    self.send(msg)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 1035, in send
+    self.connect()
+  File "C:\YU rassulca\venv\Lib\site-packages\urllib3\connection.py", line 279, in connect
+    self.sock = self._new_conn()
+                ^^^^^^^^^^^^^^^^
+  File "C:\YU rassulca\venv\Lib\site-packages\urllib3\connection.py", line 214, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x00000219B27548F0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\YU rassulca\browser_handler.py", line 56, in process_page
+    driver.set_page_load_timeout(30)
+  File "C:\YU rassulca\venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 715, in set_page_load_timeout
+    self.execute(Command.SET_TIMEOUTS, {"pageLoad": int(float(time_to_wait) * 1000)})
+  File "C:\YU rassulca\venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 378, in execute
+    response = self.command_executor.execute(driver_command, params)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\YU rassulca\venv\Lib\site-packages\selenium\webdriver\remote\remote_connection.py", line 391, in execute
+    return self._request(command_info[0], url, body=data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\YU rassulca\venv\Lib\site-packages\selenium\webdriver\remote\remote_connection.py", line 415, in _request
+    response = self._conn.request(method, url, body=body, headers=headers, timeout=self._client_config.timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\YU rassulca\venv\Lib\site-packages\urllib3\_request_methods.py", line 143, in request
+    return self.request_encode_body(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\YU rassulca\venv\Lib\site-packages\urllib3\_request_methods.py", line 278, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\YU rassulca\venv\Lib\site-packages\urllib3\poolmanager.py", line 443, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\YU rassulca\venv\Lib\site-packages\urllib3\connectionpool.py", line 873, in urlopen
+    return self.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\YU rassulca\venv\Lib\site-packages\urllib3\connectionpool.py", line 873, in urlopen
+    return self.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\YU rassulca\venv\Lib\site-packages\urllib3\connectionpool.py", line 873, in urlopen
+    return self.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\YU rassulca\venv\Lib\site-packages\urllib3\connectionpool.py", line 843, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "C:\YU rassulca\venv\Lib\site-packages\urllib3\util\retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='localhost', port=50887): Max retries exceeded with url: /session/9aab87dc-b9c8-4932-8645-d1c57b50e838/timeouts (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000219B27548F0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2024-11-13 02:13:10,364 - INFO - \u041f\u043e\u043f\u044b\u0442\u043a\u0430 \u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0438 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u044b: https://uslugi.yandex.ru/profile/AndrejVladimirovichK-2877544
+2024-11-13 02:13:15,379 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000219B2754A70>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/9aab87dc-b9c8-4932-8645-d1c57b50e838/timeouts
+2024-11-13 02:13:20,415 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000219B2754830>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/9aab87dc-b9c8-4932-8645-d1c57b50e838/timeouts
+2024-11-13 02:13:25,453 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000219B2754EC0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/9aab87dc-b9c8-4932-8645-d1c57b50e838/timeouts
+2024-11-13 02:13:30,488 - ERROR - \u041d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u043d\u0430\u044f \u043e\u0448\u0438\u0431\u043a\u0430 \u043f\u0440\u0438 \u043e\u0431\u0440\u0430\u0431\u043e\u0442\u043a\u0435 https://uslugi.yandex.ru/profile/AndrejVladimirovichK-2877544: HTTPConnectionPool(host='localhost', port=50887): Max retries exceeded with url: /session/9aab87dc-b9c8-4932-8645-d1c57b50e838/timeouts (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000219B27550A0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+Traceback (most recent call last):
+  File "C:\YU rassulca\venv\Lib\site-packages\urllib3\connection.py", line 199, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\YU rassulca\venv\Lib\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    raise err
+  File "C:\YU rassulca\venv\Lib\site-packages\urllib3\util\connection.py", line 73, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] No connection could be made because the target machine actively refused it
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\YU rassulca\venv\Lib\site-packages\urllib3\connectionpool.py", line 789, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\YU rassulca\venv\Lib\site-packages\urllib3\connectionpool.py", line 495, in _make_request
+    conn.request(
+  File "C:\YU rassulca\venv\Lib\site-packages\urllib3\connection.py", line 441, in request
+    self.endheaders()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 1331, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 1091, in _send_output
+    self.send(msg)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 1035, in send
+    self.connect()
+  File "C:\YU rassulca\venv\Lib\site-packages\urllib3\connection.py", line 279, in connect
+    self.sock = self._new_conn()
+                ^^^^^^^^^^^^^^^^
+  File "C:\YU rassulca\venv\Lib\site-packages\urllib3\connection.py", line 214, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x00000219B27550A0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\YU rassulca\browser_handler.py", line 56, in process_page
+    driver.set_page_load_timeout(30)
+  File "C:\YU rassulca\venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 715, in set_page_load_timeout
+    self.execute(Command.SET_TIMEOUTS, {"pageLoad": int(float(time_to_wait) * 1000)})
+  File "C:\YU rassulca\venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 378, in execute
+    response = self.command_executor.execute(driver_command, params)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\YU rassulca\venv\Lib\site-packages\selenium\webdriver\remote\remote_connection.py", line 391, in execute
+    return self._request(command_info[0], url, body=data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\YU rassulca\venv\Lib\site-packages\selenium\webdriver\remote\remote_connection.py", line 415, in _request
+    response = self._conn.request(method, url, body=body, headers=headers, timeout=self._client_config.timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\YU rassulca\venv\Lib\site-packages\urllib3\_request_methods.py", line 143, in request
+    return self.request_encode_body(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\YU rassulca\venv\Lib\site-packages\urllib3\_request_methods.py", line 278, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\YU rassulca\venv\Lib\site-packages\urllib3\poolmanager.py", line 443, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\YU rassulca\venv\Lib\site-packages\urllib3\connectionpool.py", line 873, in urlopen
+    return self.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\YU rassulca\venv\Lib\site-packages\urllib3\connectionpool.py", line 873, in urlopen
+    return self.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\YU rassulca\venv\Lib\site-packages\urllib3\connectionpool.py", line 873, in urlopen
+    return self.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\YU rassulca\venv\Lib\site-packages\urllib3\connectionpool.py", line 843, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "C:\YU rassulca\venv\Lib\site-packages\urllib3\util\retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='localhost', port=50887): Max retries exceeded with url: /session/9aab87dc-b9c8-4932-8645-d1c57b50e838/timeouts (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000219B27550A0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2024-11-13 02:13:31,506 - INFO - \u041f\u043e\u043f\u044b\u0442\u043a\u0430 \u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0438 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u044b: https://uslugi.yandex.ru/profile/AndrejVladimirovichK-2877544
+2024-11-13 02:13:36,532 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000219B2755250>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/9aab87dc-b9c8-4932-8645-d1c57b50e838/timeouts
+2024-11-13 02:13:41,556 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000219B2754F80>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/9aab87dc-b9c8-4932-8645-d1c57b50e838/timeouts
+2024-11-13 02:16:55,977 - INFO - \u0417\u0430\u043f\u0443\u0441\u043a \u043f\u0440\u043e\u0446\u0435\u0441\u0441\u0430 \u0441 1 \u043f\u043e\u0442\u043e\u043a\u0430\u043c\u0438
+2024-11-13 02:16:55,977 - INFO - \u0417\u0430\u0433\u0440\u0443\u0436\u0435\u043d\u043e 1 URL, 61 \u0441\u043e\u043e\u0431\u0449\u0435\u043d\u0438\u0439 \u0438 2 \u043f\u0440\u043e\u043a\u0441\u0438
+2024-11-13 02:17:00,353 - INFO - \u041f\u043e\u043f\u044b\u0442\u043a\u0430 \u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0438 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u044b: https://uslugi.yandex.ru/profile/AndrejVladimirovichK-2877544
+2024-11-13 02:17:01,002 - INFO - \u0422\u0435\u043a\u0443\u0449\u0438\u0439 URL \u043f\u043e\u0441\u043b\u0435 \u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0438: https://uslugi.yandex.ru/profile/AndrejVladimirovichK-2877544
+2024-11-13 02:17:01,169 - INFO - \u042d\u043b\u0435\u043c\u0435\u043d\u0442 'Logo-Link' \u043d\u0430\u0439\u0434\u0435\u043d
+2024-11-13 02:17:01,649 - INFO - \u041a\u043d\u043e\u043f\u043a\u0430 '\u0427\u0430\u0442' \u043d\u0430\u0436\u0430\u0442\u0430
+2024-11-13 02:17:31,713 - WARNING - \u042d\u043b\u0435\u043c\u0435\u043d\u0442 '\u042f.\u041c\u0435\u0441\u0441\u0435\u043d\u0434\u0436\u0435\u0440' \u043d\u0435 \u043d\u0430\u0439\u0434\u0435\u043d \u043d\u0430 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0435 https://uslugi.yandex.ru/profile/AndrejVladimirovichK-2877544. \u041f\u0440\u043e\u043f\u0443\u0441\u043a\u0430\u0435\u043c \u044d\u0442\u043e \u0434\u0435\u0439\u0441\u0442\u0432\u0438\u0435.
+2024-11-13 02:17:41,792 - WARNING - \u042d\u043b\u0435\u043c\u0435\u043d\u0442 \u0442\u0435\u043a\u0441\u0442\u043e\u0432\u043e\u0433\u043e \u043f\u043e\u043b\u044f \u043d\u0435 \u043d\u0430\u0439\u0434\u0435\u043d \u043d\u0430 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0435 https://uslugi.yandex.ru/profile/AndrejVladimirovichK-2877544. \u041f\u0440\u043e\u043f\u0443\u0441\u043a\u0430\u0435\u043c \u044d\u0442\u043e \u0434\u0435\u0439\u0441\u0442\u0432\u0438\u0435.
+2024-11-13 02:17:41,792 - INFO - \u041f\u043e\u043f\u044b\u0442\u043a\u0430 \u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0438 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u044b: https://uslugi.yandex.ru/profile/AndrejVladimirovichK-2877544
+2024-11-13 02:17:42,220 - INFO - \u0422\u0435\u043a\u0443\u0449\u0438\u0439 URL \u043f\u043e\u0441\u043b\u0435 \u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0438: https://uslugi.yandex.ru/profile/AndrejVladimirovichK-2877544
+2024-11-13 02:17:42,361 - INFO - \u042d\u043b\u0435\u043c\u0435\u043d\u0442 'Logo-Link' \u043d\u0430\u0439\u0434\u0435\u043d
+2024-11-13 02:17:42,820 - INFO - \u041a\u043d\u043e\u043f\u043a\u0430 '\u0427\u0430\u0442' \u043d\u0430\u0436\u0430\u0442\u0430
+2024-11-13 02:18:12,901 - WARNING - \u042d\u043b\u0435\u043c\u0435\u043d\u0442 '\u042f.\u041c\u0435\u0441\u0441\u0435\u043d\u0434\u0436\u0435\u0440' \u043d\u0435 \u043d\u0430\u0439\u0434\u0435\u043d \u043d\u0430 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0435 https://uslugi.yandex.ru/profile/AndrejVladimirovichK-2877544. \u041f\u0440\u043e\u043f\u0443\u0441\u043a\u0430\u0435\u043c \u044d\u0442\u043e \u0434\u0435\u0439\u0441\u0442\u0432\u0438\u0435.
+2024-11-13 02:18:22,963 - WARNING - \u042d\u043b\u0435\u043c\u0435\u043d\u0442 \u0442\u0435\u043a\u0441\u0442\u043e\u0432\u043e\u0433\u043e \u043f\u043e\u043b\u044f \u043d\u0435 \u043d\u0430\u0439\u0434\u0435\u043d \u043d\u0430 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0435 https://uslugi.yandex.ru/profile/AndrejVladimirovichK-2877544. \u041f\u0440\u043e\u043f\u0443\u0441\u043a\u0430\u0435\u043c \u044d\u0442\u043e \u0434\u0435\u0439\u0441\u0442\u0432\u0438\u0435.
+2024-11-13 02:18:25,586 - INFO - \u041f\u0440\u043e\u0446\u0435\u0441\u0441 \u0437\u0430\u0432\u0435\u0440\u0448\u0435\u043d
+2024-11-13 02:26:12,881 - INFO - \u0417\u0430\u043f\u0443\u0441\u043a \u043f\u0440\u043e\u0446\u0435\u0441\u0441\u0430 \u0441 1 \u043f\u043e\u0442\u043e\u043a\u0430\u043c\u0438
+2024-11-13 02:26:12,881 - INFO - \u0417\u0430\u0433\u0440\u0443\u0436\u0435\u043d\u043e 1 URL, 61 \u0441\u043e\u043e\u0431\u0449\u0435\u043d\u0438\u0439 \u0438 2 \u043f\u0440\u043e\u043a\u0441\u0438
+2024-11-13 02:26:17,278 - INFO - \u041f\u043e\u043f\u044b\u0442\u043a\u0430 \u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0438 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u044b: https://uslugi.yandex.ru/profile/AndrejVladimirovichK-2877544
+2024-11-13 02:26:17,959 - INFO - \u0422\u0435\u043a\u0443\u0449\u0438\u0439 URL \u043f\u043e\u0441\u043b\u0435 \u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0438: https://uslugi.yandex.ru/profile/AndrejVladimirovichK-2877544
+2024-11-13 02:26:18,128 - INFO - \u042d\u043b\u0435\u043c\u0435\u043d\u0442 'Logo-Link' \u043d\u0430\u0439\u0434\u0435\u043d
+2024-11-13 02:26:18,603 - INFO - \u041a\u043d\u043e\u043f\u043a\u0430 '\u0427\u0430\u0442' \u043d\u0430\u0436\u0430\u0442\u0430
+2024-11-13 02:27:03,699 - WARNING - \u042d\u043b\u0435\u043c\u0435\u043d\u0442 '\u042f.\u041c\u0435\u0441\u0441\u0435\u043d\u0434\u0436\u0435\u0440' \u043d\u0435 \u043d\u0430\u0439\u0434\u0435\u043d \u043d\u0430 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0435 https://uslugi.yandex.ru/profile/AndrejVladimirovichK-2877544. \u041f\u0440\u043e\u043f\u0443\u0441\u043a\u0430\u0435\u043c \u044d\u0442\u043e \u0434\u0435\u0439\u0441\u0442\u0432\u0438\u0435.
+2024-11-13 02:27:23,810 - WARNING - \u042d\u043b\u0435\u043c\u0435\u043d\u0442 \u0442\u0435\u043a\u0441\u0442\u043e\u0432\u043e\u0433\u043e \u043f\u043e\u043b\u044f \u043d\u0435 \u043d\u0430\u0439\u0434\u0435\u043d \u043d\u0430 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0435 https://uslugi.yandex.ru/profile/AndrejVladimirovichK-2877544. \u041f\u0440\u043e\u043f\u0443\u0441\u043a\u0430\u0435\u043c \u044d\u0442\u043e \u0434\u0435\u0439\u0441\u0442\u0432\u0438\u0435. \u041e\u0448\u0438\u0431\u043a\u0430: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2024-11-13 02:27:23,810 - INFO - \u041f\u043e\u043f\u044b\u0442\u043a\u0430 \u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0438 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u044b: https://uslugi.yandex.ru/profile/AndrejVladimirovichK-2877544
+2024-11-13 02:27:24,425 - INFO - \u0422\u0435\u043a\u0443\u0449\u0438\u0439 URL \u043f\u043e\u0441\u043b\u0435 \u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0438: https://uslugi.yandex.ru/profile/AndrejVladimirovichK-2877544
+2024-11-13 02:27:24,565 - INFO - \u042d\u043b\u0435\u043c\u0435\u043d\u0442 'Logo-Link' \u043d\u0430\u0439\u0434\u0435\u043d
+2024-11-13 02:27:25,006 - INFO - \u041a\u043d\u043e\u043f\u043a\u0430 '\u0427\u0430\u0442' \u043d\u0430\u0436\u0430\u0442\u0430
+2024-11-13 02:28:10,101 - WARNING - \u042d\u043b\u0435\u043c\u0435\u043d\u0442 '\u042f.\u041c\u0435\u0441\u0441\u0435\u043d\u0434\u0436\u0435\u0440' \u043d\u0435 \u043d\u0430\u0439\u0434\u0435\u043d \u043d\u0430 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0435 https://uslugi.yandex.ru/profile/AndrejVladimirovichK-2877544. \u041f\u0440\u043e\u043f\u0443\u0441\u043a\u0430\u0435\u043c \u044d\u0442\u043e \u0434\u0435\u0439\u0441\u0442\u0432\u0438\u0435.
+2024-11-13 02:28:30,212 - WARNING - \u042d\u043b\u0435\u043c\u0435\u043d\u0442 \u0442\u0435\u043a\u0441\u0442\u043e\u0432\u043e\u0433\u043e \u043f\u043e\u043b\u044f \u043d\u0435 \u043d\u0430\u0439\u0434\u0435\u043d \u043d\u0430 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0435 https://uslugi.yandex.ru/profile/AndrejVladimirovichK-2877544. \u041f\u0440\u043e\u043f\u0443\u0441\u043a\u0430\u0435\u043c \u044d\u0442\u043e \u0434\u0435\u0439\u0441\u0442\u0432\u0438\u0435. \u041e\u0448\u0438\u0431\u043a\u0430: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2024-11-13 02:28:32,572 - INFO - \u041f\u0440\u043e\u0446\u0435\u0441\u0441 \u0437\u0430\u0432\u0435\u0440\u0448\u0435\u043d
+2024-11-13 02:33:55,348 - INFO - \u0417\u0430\u043f\u0443\u0441\u043a \u043f\u0440\u043e\u0446\u0435\u0441\u0441\u0430 \u0441 1 \u043f\u043e\u0442\u043e\u043a\u0430\u043c\u0438
+2024-11-13 02:33:55,348 - INFO - \u0417\u0430\u0433\u0440\u0443\u0436\u0435\u043d\u043e 1 URL, 61 \u0441\u043e\u043e\u0431\u0449\u0435\u043d\u0438\u0439 \u0438 2 \u043f\u0440\u043e\u043a\u0441\u0438
+2024-11-13 02:33:59,732 - INFO - \u041f\u043e\u043f\u044b\u0442\u043a\u0430 \u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0438 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u044b: https://uslugi.yandex.ru/profile/AndrejVladimirovichK-2877544
+2024-11-13 02:34:00,451 - INFO - \u0422\u0435\u043a\u0443\u0449\u0438\u0439 URL \u043f\u043e\u0441\u043b\u0435 \u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0438: https://uslugi.yandex.ru/profile/AndrejVladimirovichK-2877544
+2024-11-13 02:34:00,630 - INFO - \u042d\u043b\u0435\u043c\u0435\u043d\u0442 'Logo-Link' \u043d\u0430\u0439\u0434\u0435\u043d
+2024-11-13 02:34:01,057 - INFO - \u041a\u043d\u043e\u043f\u043a\u0430 '\u0427\u0430\u0442' \u043d\u0430\u0436\u0430\u0442\u0430
+2024-11-13 02:34:51,178 - WARNING - \u042d\u043b\u0435\u043c\u0435\u043d\u0442 '\u042f.\u041c\u0435\u0441\u0441\u0435\u043d\u0434\u0436\u0435\u0440' \u043d\u0435 \u043d\u0430\u0439\u0434\u0435\u043d \u043d\u0430 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0435 https://uslugi.yandex.ru/profile/AndrejVladimirovichK-2877544. \u041f\u0440\u043e\u0431\u0443\u0435\u043c \u0430\u043b\u044c\u0442\u0435\u0440\u043d\u0430\u0442\u0438\u0432\u043d\u044b\u0439 XPath.
+2024-11-13 02:35:11,292 - WARNING - \u042d\u043b\u0435\u043c\u0435\u043d\u0442 '\u042f.\u041c\u0435\u0441\u0441\u0435\u043d\u0434\u0436\u0435\u0440' \u043d\u0435 \u043d\u0430\u0439\u0434\u0435\u043d \u043d\u0430 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0435 https://uslugi.yandex.ru/profile/AndrejVladimirovichK-2877544 \u0434\u0430\u0436\u0435 \u0441 \u0430\u043b\u044c\u0442\u0435\u0440\u043d\u0430\u0442\u0438\u0432\u043d\u044b\u043c XPath. \u041f\u0440\u043e\u043f\u0443\u0441\u043a\u0430\u0435\u043c \u044d\u0442\u043e \u0434\u0435\u0439\u0441\u0442\u0432\u0438\u0435.
+2024-11-13 02:35:31,411 - WARNING - \u042d\u043b\u0435\u043c\u0435\u043d\u0442 \u0442\u0435\u043a\u0441\u0442\u043e\u0432\u043e\u0433\u043e \u043f\u043e\u043b\u044f \u043d\u0435 \u043d\u0430\u0439\u0434\u0435\u043d \u043d\u0430 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0435 https://uslugi.yandex.ru/profile/AndrejVladimirovichK-2877544. \u041f\u0440\u043e\u0431\u0443\u0435\u043c \u0430\u043b\u044c\u0442\u0435\u0440\u043d\u0430\u0442\u0438\u0432\u043d\u044b\u0439 XPath. \u041e\u0448\u0438\u0431\u043a\u0430: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2024-11-13 02:35:51,523 - WARNING - \u0410\u043b\u044c\u0442\u0435\u0440\u043d\u0430\u0442\u0438\u0432\u043d\u043e\u0435 \u0442\u0435\u043a\u0441\u0442\u043e\u0432\u043e\u0435 \u043f\u043e\u043b\u0435 \u043d\u0435 \u043d\u0430\u0439\u0434\u0435\u043d\u043e \u043d\u0430 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0435 https://uslugi.yandex.ru/profile/AndrejVladimirovichK-2877544. \u041f\u0440\u043e\u043f\u0443\u0441\u043a\u0430\u0435\u043c \u044d\u0442\u043e \u0434\u0435\u0439\u0441\u0442\u0432\u0438\u0435. \u041e\u0448\u0438\u0431\u043a\u0430: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2024-11-13 02:35:51,523 - INFO - \u041f\u043e\u043f\u044b\u0442\u043a\u0430 \u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0438 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u044b: https://uslugi.yandex.ru/profile/AndrejVladimirovichK-2877544
+2024-11-13 02:35:52,023 - INFO - \u0422\u0435\u043a\u0443\u0449\u0438\u0439 URL \u043f\u043e\u0441\u043b\u0435 \u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0438: https://uslugi.yandex.ru/profile/AndrejVladimirovichK-2877544
+2024-11-13 02:35:52,166 - INFO - \u042d\u043b\u0435\u043c\u0435\u043d\u0442 'Logo-Link' \u043d\u0430\u0439\u0434\u0435\u043d
+2024-11-13 02:35:52,590 - INFO - \u041a\u043d\u043e\u043f\u043a\u0430 '\u0427\u0430\u0442' \u043d\u0430\u0436\u0430\u0442\u0430
+2024-11-13 02:36:42,717 - WARNING - \u042d\u043b\u0435\u043c\u0435\u043d\u0442 '\u042f.\u041c\u0435\u0441\u0441\u0435\u043d\u0434\u0436\u0435\u0440' \u043d\u0435 \u043d\u0430\u0439\u0434\u0435\u043d \u043d\u0430 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0435 https://uslugi.yandex.ru/profile/AndrejVladimirovichK-2877544. \u041f\u0440\u043e\u0431\u0443\u0435\u043c \u0430\u043b\u044c\u0442\u0435\u0440\u043d\u0430\u0442\u0438\u0432\u043d\u044b\u0439 XPath.
+2024-11-13 02:37:02,837 - WARNING - \u042d\u043b\u0435\u043c\u0435\u043d\u0442 '\u042f.\u041c\u0435\u0441\u0441\u0435\u043d\u0434\u0436\u0435\u0440' \u043d\u0435 \u043d\u0430\u0439\u0434\u0435\u043d \u043d\u0430 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0435 https://uslugi.yandex.ru/profile/AndrejVladimirovichK-2877544 \u0434\u0430\u0436\u0435 \u0441 \u0430\u043b\u044c\u0442\u0435\u0440\u043d\u0430\u0442\u0438\u0432\u043d\u044b\u043c XPath. \u041f\u0440\u043e\u043f\u0443\u0441\u043a\u0430\u0435\u043c \u044d\u0442\u043e \u0434\u0435\u0439\u0441\u0442\u0432\u0438\u0435.
+2024-11-13 02:37:22,964 - WARNING - \u042d\u043b\u0435\u043c\u0435\u043d\u0442 \u0442\u0435\u043a\u0441\u0442\u043e\u0432\u043e\u0433\u043e \u043f\u043e\u043b\u044f \u043d\u0435 \u043d\u0430\u0439\u0434\u0435\u043d \u043d\u0430 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0435 https://uslugi.yandex.ru/profile/AndrejVladimirovichK-2877544. \u041f\u0440\u043e\u0431\u0443\u0435\u043c \u0430\u043b\u044c\u0442\u0435\u0440\u043d\u0430\u0442\u0438\u0432\u043d\u044b\u0439 XPath. \u041e\u0448\u0438\u0431\u043a\u0430: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2024-11-13 02:37:43,086 - WARNING - \u0410\u043b\u044c\u0442\u0435\u0440\u043d\u0430\u0442\u0438\u0432\u043d\u043e\u0435 \u0442\u0435\u043a\u0441\u0442\u043e\u0432\u043e\u0435 \u043f\u043e\u043b\u0435 \u043d\u0435 \u043d\u0430\u0439\u0434\u0435\u043d\u043e \u043d\u0430 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0435 https://uslugi.yandex.ru/profile/AndrejVladimirovichK-2877544. \u041f\u0440\u043e\u043f\u0443\u0441\u043a\u0430\u0435\u043c \u044d\u0442\u043e \u0434\u0435\u0439\u0441\u0442\u0432\u0438\u0435. \u041e\u0448\u0438\u0431\u043a\u0430: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2024-11-13 02:37:45,448 - INFO - \u041f\u0440\u043e\u0446\u0435\u0441\u0441 \u0437\u0430\u0432\u0435\u0440\u0448\u0435\u043d
+2024-11-13 02:44:38,185 - INFO - \u0417\u0430\u043f\u0443\u0441\u043a \u043f\u0440\u043e\u0446\u0435\u0441\u0441\u0430 \u0441 1 \u043f\u043e\u0442\u043e\u043a\u0430\u043c\u0438
+2024-11-13 02:44:38,185 - INFO - \u0417\u0430\u0433\u0440\u0443\u0436\u0435\u043d\u043e 1 URL, 61 \u0441\u043e\u043e\u0431\u0449\u0435\u043d\u0438\u0439 \u0438 2 \u043f\u0440\u043e\u043a\u0441\u0438
+2024-11-13 02:44:42,577 - INFO - \u041f\u043e\u043f\u044b\u0442\u043a\u0430 \u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0438 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u044b: https://uslugi.yandex.ru/profile/AndrejVladimirovichK-2877544
+2024-11-13 02:44:43,197 - INFO - \u0422\u0435\u043a\u0443\u0449\u0438\u0439 URL \u043f\u043e\u0441\u043b\u0435 \u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0438: https://uslugi.yandex.ru/profile/AndrejVladimirovichK-2877544
+2024-11-13 02:44:43,362 - INFO - \u042d\u043b\u0435\u043c\u0435\u043d\u0442 'Logo-Link' \u043d\u0430\u0439\u0434\u0435\u043d
+2024-11-13 02:44:43,851 - INFO - \u041a\u043d\u043e\u043f\u043a\u0430 '\u0427\u0430\u0442' \u043d\u0430\u0436\u0430\u0442\u0430
+2024-11-13 02:45:33,974 - WARNING - \u042d\u043b\u0435\u043c\u0435\u043d\u0442 '\u042f.\u041c\u0435\u0441\u0441\u0435\u043d\u0434\u0436\u0435\u0440' \u043d\u0435 \u043d\u0430\u0439\u0434\u0435\u043d \u043d\u0430 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0435 https://uslugi.yandex.ru/profile/AndrejVladimirovichK-2877544. \u041f\u0440\u043e\u0431\u0443\u0435\u043c \u0430\u043b\u044c\u0442\u0435\u0440\u043d\u0430\u0442\u0438\u0432\u043d\u044b\u0439 XPath.
+2024-11-13 02:45:54,096 - WARNING - \u042d\u043b\u0435\u043c\u0435\u043d\u0442 '\u042f.\u041c\u0435\u0441\u0441\u0435\u043d\u0434\u0436\u0435\u0440' \u043d\u0435 \u043d\u0430\u0439\u0434\u0435\u043d \u043d\u0430 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0435 https://uslugi.yandex.ru/profile/AndrejVladimirovichK-2877544 \u0434\u0430\u0436\u0435 \u0441 \u0430\u043b\u044c\u0442\u0435\u0440\u043d\u0430\u0442\u0438\u0432\u043d\u044b\u043c XPath. \u041f\u0440\u043e\u043f\u0443\u0441\u043a\u0430\u0435\u043c \u044d\u0442\u043e \u0434\u0435\u0439\u0441\u0442\u0432\u0438\u0435.
+2024-11-13 02:45:54,102 - INFO - \u041f\u0435\u0440\u0435\u043a\u043b\u044e\u0447\u0438\u043b\u0438\u0441\u044c \u043d\u0430 iframe
+2024-11-13 02:45:54,106 - INFO - \u0422\u0435\u043a\u0441\u0442\u043e\u0432\u043e\u0435 \u043f\u043e\u043b\u0435 \u043d\u0430\u0439\u0434\u0435\u043d\u043e \u043d\u0430 https://uslugi.yandex.ru/profile/AndrejVladimirovichK-2877544
+2024-11-13 02:45:54,440 - INFO - \u0422\u0435\u043a\u0441\u0442 \u0432\u0432\u0435\u0434\u0435\u043d \u0432 \u043f\u043e\u043b\u0435 \u043d\u0430 https://uslugi.yandex.ru/profile/AndrejVladimirovichK-2877544
+2024-11-13 02:45:59,089 - INFO - \u041a\u043d\u043e\u043f\u043a\u0430 \u043e\u0442\u043f\u0440\u0430\u0432\u043a\u0438 \u0441\u043e\u043e\u0431\u0449\u0435\u043d\u0438\u044f \u043d\u0430\u0436\u0430\u0442\u0430 \u043d\u0430 https://uslugi.yandex.ru/profile/AndrejVladimirovichK-2877544
+2024-11-13 02:46:14,768 - INFO - \u0421\u043e\u043e\u0431\u0449\u0435\u043d\u0438\u0435 \u043e\u0442\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u043e \u043d\u0430 https://uslugi.yandex.ru/profile/AndrejVladimirovichK-2877544
+2024-11-13 02:46:14,768 - INFO - \u041f\u043e\u043f\u044b\u0442\u043a\u0430 \u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0438 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u044b: https://uslugi.yandex.ru/profile/AndrejVladimirovichK-2877544
+2024-11-13 02:46:15,199 - INFO - \u0422\u0435\u043a\u0443\u0449\u0438\u0439 URL \u043f\u043e\u0441\u043b\u0435 \u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0438: https://uslugi.yandex.ru/profile/AndrejVladimirovichK-2877544
+2024-11-13 02:46:15,338 - INFO - \u042d\u043b\u0435\u043c\u0435\u043d\u0442 'Logo-Link' \u043d\u0430\u0439\u0434\u0435\u043d
+2024-11-13 02:46:15,801 - INFO - \u041a\u043d\u043e\u043f\u043a\u0430 '\u0427\u0430\u0442' \u043d\u0430\u0436\u0430\u0442\u0430
+2024-11-13 02:47:05,931 - WARNING - \u042d\u043b\u0435\u043c\u0435\u043d\u0442 '\u042f.\u041c\u0435\u0441\u0441\u0435\u043d\u0434\u0436\u0435\u0440' \u043d\u0435 \u043d\u0430\u0439\u0434\u0435\u043d \u043d\u0430 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0435 https://uslugi.yandex.ru/profile/AndrejVladimirovichK-2877544. \u041f\u0440\u043e\u0431\u0443\u0435\u043c \u0430\u043b\u044c\u0442\u0435\u0440\u043d\u0430\u0442\u0438\u0432\u043d\u044b\u0439 XPath.
+2024-11-13 02:47:26,055 - WARNING - \u042d\u043b\u0435\u043c\u0435\u043d\u0442 '\u042f.\u041c\u0435\u0441\u0441\u0435\u043d\u0434\u0436\u0435\u0440' \u043d\u0435 \u043d\u0430\u0439\u0434\u0435\u043d \u043d\u0430 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0435 https://uslugi.yandex.ru/profile/AndrejVladimirovichK-2877544 \u0434\u0430\u0436\u0435 \u0441 \u0430\u043b\u044c\u0442\u0435\u0440\u043d\u0430\u0442\u0438\u0432\u043d\u044b\u043c XPath. \u041f\u0440\u043e\u043f\u0443\u0441\u043a\u0430\u0435\u043c \u044d\u0442\u043e \u0434\u0435\u0439\u0441\u0442\u0432\u0438\u0435.
+2024-11-13 02:47:26,059 - INFO - \u041f\u0435\u0440\u0435\u043a\u043b\u044e\u0447\u0438\u043b\u0438\u0441\u044c \u043d\u0430 iframe
+2024-11-13 02:47:26,064 - INFO - \u0422\u0435\u043a\u0441\u0442\u043e\u0432\u043e\u0435 \u043f\u043e\u043b\u0435 \u043d\u0430\u0439\u0434\u0435\u043d\u043e \u043d\u0430 https://uslugi.yandex.ru/profile/AndrejVladimirovichK-2877544
+2024-11-13 02:47:26,402 - INFO - \u0422\u0435\u043a\u0441\u0442 \u0432\u0432\u0435\u0434\u0435\u043d \u0432 \u043f\u043e\u043b\u0435 \u043d\u0430 https://uslugi.yandex.ru/profile/AndrejVladimirovichK-2877544
+2024-11-13 02:47:31,250 - INFO - \u041a\u043d\u043e\u043f\u043a\u0430 \u043e\u0442\u043f\u0440\u0430\u0432\u043a\u0438 \u0441\u043e\u043e\u0431\u0449\u0435\u043d\u0438\u044f \u043d\u0430\u0436\u0430\u0442\u0430 \u043d\u0430 https://uslugi.yandex.ru/profile/AndrejVladimirovichK-2877544
+2024-11-13 02:47:48,988 - INFO - \u0421\u043e\u043e\u0431\u0449\u0435\u043d\u0438\u0435 \u043e\u0442\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u043e \u043d\u0430 https://uslugi.yandex.ru/profile/AndrejVladimirovichK-2877544
+2024-11-13 02:47:51,372 - INFO - \u041f\u0440\u043e\u0446\u0435\u0441\u0441 \u0437\u0430\u0432\u0435\u0440\u0448\u0435\u043d

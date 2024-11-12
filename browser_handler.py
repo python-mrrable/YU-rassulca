@@ -6,7 +6,7 @@ from selenium.webdriver.firefox.options import Options
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-from selenium.common.exceptions import TimeoutException, NoSuchElementException, WebDriverException
+from selenium.common.exceptions import TimeoutException, WebDriverException, NoSuchElementException
 import logging
 import os
 from utils import load_file_content, load_xlsx_content, get_random_line
@@ -58,32 +58,76 @@ def process_page(driver, url, message, stop_flag):
         logging.info(f"Текущий URL после загрузки: {driver.current_url}")
         
         WebDriverWait(driver, 20).until(EC.presence_of_element_located((By.CLASS_NAME, "Logo-Link")))
-        
-        chat_button = WebDriverWait(driver, 10).until(
+        logging.info("Элемент 'Logo-Link' найден")
+
+        chat_button = WebDriverWait(driver, 20).until(
             EC.element_to_be_clickable((By.XPATH, "//button[.//span[text()='Чат']]"))
         )
         chat_button.click()
-        time.sleep(20)
+        logging.info("Кнопка 'Чат' нажата")
+        time.sleep(30)  # Увеличиваем время ожидания
 
-        messenger_button = WebDriverWait(driver, 10).until(
-            EC.element_to_be_clickable((By.XPATH, "//div[contains(text(), 'Я.Мессенджер')]"))
-        )
-        messenger_button.click()
-        time.sleep(20)
+        try:
+            messenger_button = WebDriverWait(driver, 20).until(
+                EC.presence_of_element_located((By.XPATH, "//div[contains(text(), 'Я.Мессенджер')]"))
+            )
+            messenger_button.click()
+            logging.info("Кнопка 'Я.Мессенджер' нажата")
+            time.sleep(30)  # Увеличиваем время ожидания
+        except TimeoutException:
+            logging.warning(f"Элемент 'Я.Мессенджер' не найден на странице {url}. Пробуем альтернативный XPath.")
+            try:
+                messenger_button_alt = WebDriverWait(driver, 20).until(
+                    EC.presence_of_element_located((By.XPATH, "//span[contains(text(), 'Я.Мессенджер')]"))
+                )
+                messenger_button_alt.click()
+                logging.info("Альтернативная кнопка 'Я.Мессенджер' нажата")
+                time.sleep(30)
+            except TimeoutException:
+                logging.warning(f"Элемент 'Я.Мессенджер' не найден на странице {url} даже с альтернативным XPath. Пропускаем это действие.")
 
-        textarea = WebDriverWait(driver, 10).until(
-            EC.presence_of_element_located((By.XPATH, "//textarea[@data-autofocus-container]"))
-        )
-        textarea.send_keys(message)
-        time.sleep(random.uniform(4, 7))
+        # Проверка наличия iframe и переключение на него
+        try:
+            iframe = WebDriverWait(driver, 20).until(EC.presence_of_element_located((By.TAG_NAME, "iframe")))
+            driver.switch_to.frame(iframe)
+            logging.info("Переключились на iframe")
+        except TimeoutException:
+            logging.info("iframe не найден, продолжаем без переключения")
 
-        send_button = WebDriverWait(driver, 10).until(
-            EC.element_to_be_clickable((By.XPATH, "//div[contains(@class, 'ui-icon-button_design_submit')]"))
-        )
-        send_button.click()
-        time.sleep(random.uniform(15, 20))
+        # Берем строку из файла Текст.xlsx и пишем текст строки
+        try:
+            textarea = WebDriverWait(driver, 20).until(
+                EC.presence_of_element_located((By.CSS_SELECTOR, "textarea[data-autofocus-container]"))
+            )
+            logging.info(f"Текстовое поле найдено на {url}")
+            textarea.send_keys(message)
+            logging.info(f"Текст введен в поле на {url}")
+            time.sleep(random.uniform(4, 7))  # Подождем перед отправкой
+        except (TimeoutException, NoSuchElementException) as e:
+            logging.warning(f"Элемент текстового поля не найден на странице {url}. Пробуем альтернативный селектор. Ошибка: {str(e)}")
+            try:
+                textarea_alt = WebDriverWait(driver, 20).until(
+                    EC.presence_of_element_located((By.CSS_SELECTOR, "textarea.ui-textarea__control"))
+                )
+                logging.info(f"Альтернативное текстовое поле найдено на {url}")
+                textarea_alt.send_keys(message)
+                logging.info(f"Текст введен в альтернативное поле на {url}")
+                time.sleep(random.uniform(4, 7))
+            except (TimeoutException, NoSuchElementException) as e:
+                logging.warning(f"Альтернативное текстовое поле не найдено на странице {url}. Пропускаем это действие. Ошибка: {str(e)}")
+                return
 
-        logging.info(f"Сообщение отправлено на {url}")
+        # Кликаем на кнопку отправить
+        try:
+            send_button = WebDriverWait(driver, 20).until(
+                EC.element_to_be_clickable((By.CSS_SELECTOR, "div.ui-icon-button_design_submit"))
+            )
+            send_button.click()
+            logging.info(f"Кнопка отправки сообщения нажата на {url}")
+            time.sleep(random.uniform(15, 20))  # Подождем после отправки
+            logging.info(f"Сообщение отправлено на {url}")
+        except (TimeoutException, NoSuchElementException) as e:
+            logging.warning(f"Кнопка отправки сообщения не найдена на странице {url}. Пропускаем это действие. Ошибка: {str(e)}")
 
     except TimeoutException:
         logging.error(f"Таймаут при загрузке страницы {url}")
