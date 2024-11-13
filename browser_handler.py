@@ -60,12 +60,14 @@ def process_page(driver, url, message, stop_flag):
         WebDriverWait(driver, 20).until(EC.presence_of_element_located((By.CLASS_NAME, "Logo-Link")))
         logging.info("Элемент 'Logo-Link' найден")
 
+        time.sleep(random.uniform(15, 20))  # Добавляем паузу в 15-20 секунд перед нажатием на кнопку "Чат"
+
         chat_button = WebDriverWait(driver, 20).until(
             EC.element_to_be_clickable((By.XPATH, "//button[.//span[text()='Чат']]"))
         )
         chat_button.click()
         logging.info("Кнопка 'Чат' нажата")
-        time.sleep(30)  # Увеличиваем время ожидания
+        time.sleep(random.uniform(13, 17))  # Добавляем паузу в 13-17 секунд перед нажатием на кнопку "Я.Мессенджер"
 
         try:
             messenger_button = WebDriverWait(driver, 20).until(
@@ -73,7 +75,7 @@ def process_page(driver, url, message, stop_flag):
             )
             messenger_button.click()
             logging.info("Кнопка 'Я.Мессенджер' нажата")
-            time.sleep(30)  # Увеличиваем время ожидания
+            time.sleep(random.uniform(13, 17))  # Добавляем паузу в 13-17 секунд после нажатия на кнопку "Я.Мессенджер"
         except TimeoutException:
             logging.warning(f"Элемент 'Я.Мессенджер' не найден на странице {url}. Пробуем альтернативный XPath.")
             try:
@@ -82,7 +84,7 @@ def process_page(driver, url, message, stop_flag):
                 )
                 messenger_button_alt.click()
                 logging.info("Альтернативная кнопка 'Я.Мессенджер' нажата")
-                time.sleep(30)
+                time.sleep(random.uniform(13, 17))  # Добавляем паузу в 13-17 секунд после нажатия на альтернативную кнопку "Я.Мессенджер"
             except TimeoutException:
                 logging.warning(f"Элемент 'Я.Мессенджер' не найден на странице {url} даже с альтернативным XPath. Пропускаем это действие.")
 
