@@ -124,10 +124,32 @@ def process_page(driver, url, message, stop_flag):
             )
             send_button.click()
             logging.info(f"Кнопка отправки сообщения нажата на {url}")
-            time.sleep(random.uniform(15, 20))  # Подождем после отправки
+            time.sleep(random.uniform(4, 7))  # Подождем после отправки
             logging.info(f"Сообщение отправлено на {url}")
         except (TimeoutException, NoSuchElementException) as e:
             logging.warning(f"Кнопка отправки сообщения не найдена на странице {url}. Пропускаем это действие. Ошибка: {str(e)}")
+            return
+
+        # Кликаем на кнопку "Не сейчас"
+        try:
+            not_now_button = WebDriverWait(driver, 20).until(
+                EC.element_to_be_clickable((By.XPATH, "//button[contains(text(), 'Не сейчас')]"))
+            )
+            not_now_button.click()
+            logging.info(f"Кнопка 'Не сейчас' нажата на {url}")
+            time.sleep(random.uniform(4, 7))  # Паузу после нажатия на "Не сейчас"
+        except (TimeoutException, NoSuchElementException) as e:
+            logging.warning(f"Кнопка 'Не сейчас' не найдена на странице {url}. Пропускаем это действие. Ошибка: {str(e)}")
+
+        # Повторный клик на кнопку отправки сообщения
+        try:
+            send_button = WebDriverWait(driver, 20).until(
+                EC.element_to_be_clickable((By.CSS_SELECTOR, "div.ui-icon-button_design_submit"))
+            )
+            send_button.click()
+            logging.info(f"Повторный клик на кнопку отправки сообщения на {url}")
+        except (TimeoutException, NoSuchElementException) as e:
+            logging.warning(f"Повторный клик на кнопку отправки сообщения не удался на странице {url}. Пропускаем это действие. Ошибка: {str(e)}")
 
     except TimeoutException:
         logging.error(f"Таймаут при загрузке страницы {url}")
