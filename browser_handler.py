@@ -9,7 +9,7 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import TimeoutException, WebDriverException, NoSuchElementException
 import logging
 import os
-from utils import load_file_content, load_xlsx_content, get_random_line
+from utils import load_file_content, load_xlsx_content, get_random_line, save_file_content
 
 # Настройка логирования
 logging.basicConfig(filename='app.log', level=logging.INFO, 
@@ -137,7 +137,7 @@ def process_page(driver, url, message, stop_flag):
             )
             not_now_button.click()
             logging.info(f"Кнопка 'Не сейчас' нажата на {url}")
-            time.sleep(random.uniform(4, 7))  # Паузу после нажатия на "Не сейчас"
+            time.sleep(random.uniform(4, 7))  # Пауза после нажатия на "Не сейчас"
         except (TimeoutException, NoSuchElementException) as e:
             logging.warning(f"Кнопка 'Не сейчас' не найдена на странице {url}. Пропускаем это действие. Ошибка: {str(e)}")
 
@@ -169,7 +169,16 @@ def start_process(url_file, message_file, proxy_file, threads, stop_flag):
     for _ in range(threads):
         driver = create_driver(random.choice(proxies) if proxies else None)
         while not stop_flag.is_set():
+            if not urls:
+                logging.info("Список URL пуст. Ожидаем добавления новых URL.")
+                time.sleep(60)  # Пауза в 1 минуту
+                urls = load_file_content(url_file)
+                continue
+
             url = get_random_line(urls)
+            urls.remove(url)  # Удалить обработанный URL из списка
+            save_file_content(url_file, urls)  # Сохранить обновленный список URL в файл
+
             message = get_random_line(messages)
             process_page(driver, url, message, stop_flag)
         driver.quit()
