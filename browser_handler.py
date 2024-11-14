@@ -77,6 +77,12 @@ def create_driver(proxy):
 
     return driver
 
+def type_text_slowly(element, text, delay=0.1):
+    """Функция для медленной печати текста в элемент."""
+    for char in text:
+        element.send_keys(char)
+        time.sleep(delay)
+
 def process_page(driver, url, message, stop_flag):
     try:
         logging.info(f"Попытка загрузки страницы: {url}")
@@ -129,7 +135,7 @@ def process_page(driver, url, message, stop_flag):
                 EC.presence_of_element_located((By.CSS_SELECTOR, "textarea[data-autofocus-container]"))
             )
             logging.info(f"Текстовое поле найдено на {url}")
-            textarea.send_keys(message)
+            type_text_slowly(textarea, message)  # Используем функцию медленной печати
             logging.info(f"Текст введен в поле на {url}")
             time.sleep(random.uniform(4, 7))  # Подождем перед отправкой
         except (TimeoutException, NoSuchElementException) as e:
@@ -139,7 +145,7 @@ def process_page(driver, url, message, stop_flag):
                     EC.presence_of_element_located((By.CSS_SELECTOR, "textarea.ui-textarea__control"))
                 )
                 logging.info(f"Альтернативное текстовое поле найдено на {url}")
-                textarea_alt.send_keys(message)
+                type_text_slowly(textarea_alt, message)  # Используем функцию медленной печати
                 logging.info(f"Текст введен в альтернативное поле на {url}")
                 time.sleep(random.uniform(4, 7))
             except (TimeoutException, NoSuchElementException) as e:
