@@ -17,6 +17,7 @@ logging.basicConfig(filename='app.log', level=logging.INFO,
                     filemode='a')
 
 from fake_useragent import UserAgent
+import random
 
 def create_driver(proxy):
     options = Options()
@@ -25,7 +26,26 @@ def create_driver(proxy):
     options.set_preference("dom.webdriver.enabled", False)
     options.set_preference('useAutomationExtension', False)
     options.set_preference("general.useragent.override", user_agent)  # Установка уникального user-agent
+
+    # Создаем Firefox профиль
+    profile = webdriver.FirefoxProfile()
+    profile.set_preference("intl.accept_languages", "en-US, en")
+    profile.set_preference("network.http.accept-encoding", "gzip, deflate")
+    profile.set_preference("network.http.connection", "keep-alive")
+    profile.set_preference("network.http.referer.spoofSource", True)
+    profile.set_preference("network.http.sendRefererHeader", 2)
     
+    # Настройка случайной геолокации
+    lat = random.uniform(-90, 90)
+    lon = random.uniform(-180, 180)
+    profile.set_preference("geo.enabled", True)
+    profile.set_preference("geo.provider.use_corelocation", True)
+    profile.set_preference("geo.prompt.testing", True)
+    profile.set_preference("geo.prompt.testing.allow", True)
+    profile.set_preference("geo.wifi.uri", f"data:application/json,{{\"location\": {{\"lat\": {lat}, \"lng\": {lon}}}, \"accuracy\": 27000.0}}")
+
+    options.profile = profile  # Устанавливаем профиль в опции
+
     if proxy:
         proxy_parts = proxy.split(':')
         if len(proxy_parts) == 4:  # Формат: login:pass@ip:port
@@ -53,7 +73,7 @@ def create_driver(proxy):
     service = Service(geckodriver_path)
     driver = webdriver.Firefox(service=service, options=options)
     
-    logging.info(f"Создан драйвер с User-Agent: {user_agent}")  # Логируем используемый User-Agent
+    logging.info(f"Создан драйвер с User-Agent: {user_agent}, GeoLocation: (lat: {lat}, lon: {lon})")  # Логируем используемый User-Agent и геолокацию
 
     return driver
 
