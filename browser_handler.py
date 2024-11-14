@@ -201,24 +201,28 @@ def start_process(url_file, message_file, proxy_file, threads, stop_flag):
     logging.info(f"Запуск процесса с {threads} потоками")
     logging.info(f"Загружено {len(urls)} URL, {len(messages)} сообщений и {len(proxies)} прокси")
 
-    for _ in range(threads):
-        proxy = random.choice(proxies) if proxies else None
-        driver = create_driver(proxy)
-        user_agent = driver.execute_script("return navigator.userAgent;")
-        logging.info(f"Используем прокси: {proxy}, User-Agent: {user_agent}")  # Логирование уникальных параметров профиля
-        while not stop_flag.is_set():
-            if not urls:
-                logging.info("Список URL пуст. Ожидаем добавления новых URL.")
-                time.sleep(60)  # Пауза в 1 минуту
-                urls = load_file_content(url_file)
-                continue
+    while not stop_flag.is_set():
+        if not urls:
+            logging.info("Список URL пуст. Ожидаем добавления новых URL.")
+            time.sleep(60)  # Пауза в 1 минуту
+            urls = load_file_content(url_file)
+            continue
 
-            url = get_random_line(urls)
-            urls.remove(url)  # Удалить обработанный URL из списка
+        for _ in range(threads):
+            if not urls:
+                break
+
+            url = urls.pop(0)  # Берем URL из начала списка
             save_file_content(url_file, urls)  # Сохранить обновленный список URL в файл
+
+            proxy = random.choice(proxies) if proxies else None
+            driver = create_driver(proxy)  # Создаем новый драйвер для каждого URL
+            user_agent = driver.execute_script("return navigator.userAgent;")
+            logging.info(f"Используем прокси: {proxy}, User-Agent: {user_agent}")  # Логирование уникальных параметров профиля
 
             message = get_random_line(messages)
             process_page(driver, url, message, stop_flag)
-        driver.quit()
+
+            driver.quit()  # Закрываем драйвер после обработки страницы
 
     logging.info("Процесс завершен")
