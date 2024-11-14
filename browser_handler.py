@@ -16,11 +16,15 @@ logging.basicConfig(filename='app.log', level=logging.INFO,
                     format='%(asctime)s - %(levelname)s - %(message)s',
                     filemode='a')
 
+from fake_useragent import UserAgent
+
 def create_driver(proxy):
     options = Options()
+    ua = UserAgent()  # Создаем объект UserAgent
+    user_agent = ua.random  # Генерация случайного user-agent
     options.set_preference("dom.webdriver.enabled", False)
     options.set_preference('useAutomationExtension', False)
-    options.set_preference("general.useragent.override", "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0")
+    options.set_preference("general.useragent.override", user_agent)  # Установка уникального user-agent
     
     if proxy:
         proxy_parts = proxy.split(':')
@@ -48,6 +52,9 @@ def create_driver(proxy):
     geckodriver_path = os.path.join(current_dir, "geckodriver.exe")
     service = Service(geckodriver_path)
     driver = webdriver.Firefox(service=service, options=options)
+    
+    logging.info(f"Создан драйвер с User-Agent: {user_agent}")  # Логируем используемый User-Agent
+
     return driver
 
 def process_page(driver, url, message, stop_flag):
@@ -169,7 +176,10 @@ def start_process(url_file, message_file, proxy_file, threads, stop_flag):
     logging.info(f"Загружено {len(urls)} URL, {len(messages)} сообщений и {len(proxies)} прокси")
 
     for _ in range(threads):
-        driver = create_driver(random.choice(proxies) if proxies else None)
+        proxy = random.choice(proxies) if proxies else None
+        driver = create_driver(proxy)
+        user_agent = driver.execute_script("return navigator.userAgent;")
+        logging.info(f"Используем прокси: {proxy}, User-Agent: {user_agent}")  # Логирование уникальных параметров профиля
         while not stop_flag.is_set():
             if not urls:
                 logging.info("Список URL пуст. Ожидаем добавления новых URL.")
